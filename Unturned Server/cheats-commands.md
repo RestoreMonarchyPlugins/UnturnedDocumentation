@@ -2,6 +2,7 @@
 position: 7
 title: Cheats Commands
 authors: MCrow
+category: servers
 published: true
 description: List of vanilla commands that can be used in-game on the server only if cheats are enabled on the server.
 ---

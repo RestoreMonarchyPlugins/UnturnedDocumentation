@@ -2,6 +2,7 @@
 position: 4
 title: Making Server Public
 authors: MCrow
+category: servers
 published: true
 description: Learn how to make your Unturned server public by creating a Game Server Login Token.
 ---

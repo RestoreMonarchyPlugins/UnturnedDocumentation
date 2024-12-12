@@ -2,6 +2,7 @@
 position: 2
 title: Server
 authors: MCrow
+category: servers
 published: true
 description: Server section allows you to customize server settings like VAC and BattlEye security, ping limits, timeouts, rate limits, fake lag, scheduled shutdowns, and more.
 ---

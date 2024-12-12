@@ -2,6 +2,7 @@
 position: 12
 title: Events
 authors: MCrow
+category: servers
 published: true
 description: Events settings can adjust the frequency and duration of weather events, airdrops, and arena settings.
 ---

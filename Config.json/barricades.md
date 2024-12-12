@@ -2,6 +2,7 @@
 position: 8
 title: Barricades
 authors: MCrow
+category: servers
 published: true
 description: Barricades settings can adjust the decay time and armor of barricades, as well as restrict placement on vehicles.
 ---

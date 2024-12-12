@@ -2,6 +2,7 @@
 position: 4
 title: Items
 authors: MCrow
+category: servers
 published: true
 description: Items settings can adjust the loot on the server, change the quality of items, and toggle durability for all or different item types.
 ---

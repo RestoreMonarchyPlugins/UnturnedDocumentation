@@ -2,6 +2,7 @@
 position: 5
 title: Commands.dat
 authors: MCrow
+category: servers
 published: true
 description: List of options for the Commands.dat file that can be used to configure your Unturned server.
 ---

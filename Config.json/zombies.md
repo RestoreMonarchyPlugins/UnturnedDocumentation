@@ -2,6 +2,7 @@
 position: 6
 title: Zombies
 authors: MCrow
+category: servers
 published: true
 ---
 

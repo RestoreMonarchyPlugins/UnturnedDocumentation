@@ -2,6 +2,7 @@
 position: 99
 title: Drafts
 authors: MCrow
+category: servers
 published: false
 description: Drafts for Unturned Server documentation.
 ---

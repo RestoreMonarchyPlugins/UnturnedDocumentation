@@ -2,6 +2,7 @@
 position: 0
 title: Installation
 authors: MCrow
+category: servers
 published: true
 description: Learn how to install Rocket on your Unturned server.
 ---

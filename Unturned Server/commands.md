@@ -2,6 +2,7 @@
 position: 6
 title: Commands
 authors: MCrow
+category: servers
 published: true
 description: List of vanilla player commands that can be used in-game on the server as an admin.
 ---

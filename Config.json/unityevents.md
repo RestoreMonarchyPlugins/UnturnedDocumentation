@@ -2,6 +2,7 @@
 position: 3
 title: UnityEvents
 authors: MCrow
+category: servers
 published: true
 description: UnityEvents is a section of debug options used for certain community-made game modifications.
 ---

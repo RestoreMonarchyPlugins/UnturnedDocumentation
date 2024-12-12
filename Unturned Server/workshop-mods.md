@@ -2,6 +2,7 @@
 position: 9
 title: Workshop Mods
 authors: MCrow
+category: servers
 published: true
 ---
 

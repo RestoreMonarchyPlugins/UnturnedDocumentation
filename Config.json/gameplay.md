@@ -2,6 +2,7 @@
 position: 13
 title: Gameplay
 authors: MCrow
+category: servers
 published: true
 description: Gameplay settings can control the repair level, hitmarkers, crosshair, and other gameplay features.
 ---

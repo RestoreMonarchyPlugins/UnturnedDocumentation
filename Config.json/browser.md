@@ -2,6 +2,7 @@
 position: 1
 title: Browser
 authors: MCrow
+category: servers
 published: true
 description: Learn how to configure the in-game browser settings for your Unturned server.
 ---

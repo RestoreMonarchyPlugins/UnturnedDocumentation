@@ -2,6 +2,7 @@
 position: 1
 title: Commands
 authors: MCrow
+category: servers
 published: true
 description: List of player commands that Rocket adds to the game.
 ---

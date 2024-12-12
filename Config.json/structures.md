@@ -2,6 +2,7 @@
 position: 9
 title: Structures
 authors: MCrow
+category: servers
 published: true
 description: Structures settings can adjust the decay time and armor of structures, as well as the damage and repair multipliers for guns and melee weapons.
 ---

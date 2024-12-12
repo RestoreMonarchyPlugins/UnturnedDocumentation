@@ -2,6 +2,7 @@
 position: 7
 title: Animals
 authors: MCrow
+category: servers
 published: true
 description: Animals settings can control the number of animals that spawn on your server, their armor and damage multipliers.
 ---

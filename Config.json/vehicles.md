@@ -2,6 +2,7 @@
 position: 5
 title: Vehicles
 authors: MCrow
+category: servers
 published: true
 description: Vehicles settings control their decay time, respawn time, and the number of vehicles that can spawn on the server.
 ---

@@ -2,6 +2,7 @@
 position: 8
 title: Workshop Map
 authors: MCrow
+category: servers
 published: true
 ---
 

@@ -2,6 +2,7 @@
 position: 10
 title: Players
 authors: MCrow
+category: servers
 published: true
 description: Players settings allow you to adjust the health, food, water, and virus levels of players, as well as the damage and regeneration rates of these levels.
 ---

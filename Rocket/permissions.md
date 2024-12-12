@@ -2,6 +2,7 @@
 position: 2
 title: Permissions
 authors: MCrow
+category: servers
 published: true
 description: Learn how to set up ranks and permissions on your Unturned server with Rocket.
 ---
