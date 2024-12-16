@@ -9,14 +9,6 @@ description: Learn what you need to get started with Unturned plugin development
 
 Before you can make any plugins for Unturned, you need to set up your development environment. This guide will help you set up Visual Studio and install project templates for creating plugins.
 
-## Table of Contents
-- [Visual Studio](#visual-studio)
-  - [Install Visual Studio](#install-visual-studio)
-- [Unturned Templates](#unturned-templates)
-   - [Install .NET SDK](#install-net-sdk)
-   - [Install Unturned Templates](#install-unturned-templates)
-- [Conclusion](#conclusion)
-
 ## Visual Studio
 ![](assets/visual_studio.png)
 
