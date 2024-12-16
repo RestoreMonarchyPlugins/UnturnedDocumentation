@@ -7,7 +7,8 @@ published: true
 description: Learn what you need to get started with Unturned plugin development.
 ---
 
-Before you can make any plugins for Unturned, you need to set up your development environment. This guide will help you set up Visual Studio and install project templates for creating plugins.
+# Development Environment
+Setting up your development environment is the first step to creating plugins for Unturned. This guide will help you set up Visual Studio and install project templates for creating plugins.
 
 ## Visual Studio
 ![](assets/visual_studio.png)
