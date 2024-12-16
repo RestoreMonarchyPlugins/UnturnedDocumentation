@@ -11,7 +11,7 @@ description: In this guide, we will create a new Unturned plugin project using t
 In this guide, we will create a new Unturned plugin project using the Unturned Plugin project template. We will add a log message to the plugin and test it on an Unturned server.
 
 ## Prerequisites
-Before you start, make sure you have the installed Visual Studio and Unturned project templates. If you haven't installed them yet, follow the [Development Environment](../development-environment) guide.
+Before you start, make sure you have the installed Visual Studio and Unturned project templates. If you haven't installed them yet, follow the [Development Environment](development-environment) guide.
 
 
 ## Create a new project
