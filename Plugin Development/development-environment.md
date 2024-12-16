@@ -12,15 +12,14 @@ Before you can make any plugins for Unturned, you need to set up your developmen
 ## Visual Studio
 ![](assets/visual_studio.png)
 
-Visual Studio is an integrated development environment (IDE) from Microsoft that is used for developing applications in C# and other languages. It is the recommended IDE for developing Unturned plugins.
+**Visual Studio** is an integrated development environment (IDE) from Microsoft that is used for developing applications in C# and other languages. It is the recommended IDE for developing Unturned plugins.
 
 ### Install Visual Studio
 1. Go to [visualstudio.microsoft.com](https://visualstudio.microsoft.com/) and download the latest version of Visual Studio.
-2. Run the installer and follow the instructions.
-3. In the installer, select the following workloads:
-   - **.NET desktop development**
-   - **Game development with Unity** (optional)
-4. Open Visual Studio to verify the installation.
+2. Run the installer and follow the instructions. 
+3. Select the **Visual Studio Community** edition, which is free for individual developers.
+4. Then, select the **.NET desktop development** workload.
+5. Open Visual Studio to verify the installation.
 
 ## Unturned Templates
 We have created a custom project template for creating Unturned plugins. This template will help you get started with plugin development quickly and let you more easily create new plugins in the future.
