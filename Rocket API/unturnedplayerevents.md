@@ -250,8 +250,7 @@ private void OnPlayerUpdateStamina(UnturnedPlayer player, byte stamina)
 ## OnPlayerWear
 Called when a player equips or changes wearable items (clothing).
 ```csharp
-private void OnPlayerWear(UnturnedPlayer player, Wearables wear, 
-    ushort id, byte? quality)
+private void OnPlayerWear(UnturnedPlayer player, Wearables wear, ushort id, byte? quality)
 {
     Logger.Log($"{player.DisplayName} equipped {wear} with ID {id}");
 }
