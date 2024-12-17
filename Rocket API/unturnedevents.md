@@ -66,9 +66,7 @@ private void HandleDisconnect(UnturnedPlayer player)
 ## OnPlayerDamaged
 Called when player takes damage.
 ```csharp
-private void HandleDamage(UnturnedPlayer player, ref EDeathCause cause, 
-    ref ELimb limb, ref UnturnedPlayer killer, ref Vector3 direction, 
-    ref float damage, ref float times, ref bool canDamage)
+private void HandleDamage(UnturnedPlayer player, ref EDeathCause cause, ref ELimb limb, ref UnturnedPlayer killer, ref Vector3 direction, ref float damage, ref float times, ref bool canDamage)
 {
     if (killer != null)
     {

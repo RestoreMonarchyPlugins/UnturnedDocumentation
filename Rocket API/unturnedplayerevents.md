@@ -40,8 +40,7 @@ public class ExamplePlugin : RocketPlugin<ExampleConfiguration>
 ## OnPlayerChatted
 Called when a player sends a chat message. Allows modifying the message color or canceling the message.
 ```csharp
-private void OnPlayerChatted(UnturnedPlayer player, ref Color color, 
-    string message, EChatMode chatMode, ref bool cancel)
+private void OnPlayerChatted(UnturnedPlayer player, ref Color color, string message, EChatMode chatMode, ref bool cancel)
 {
     if (message.Contains("bad word"))
     {
@@ -158,8 +157,7 @@ private void OnPlayerRevive(UnturnedPlayer player, Vector3 position, byte angle)
 ## OnPlayerInventoryAdded
 Called when an item is added to player's inventory.
 ```csharp
-private void OnPlayerInventoryAdded(UnturnedPlayer player, InventoryGroup group, 
-    byte index, ItemJar item)
+private void OnPlayerInventoryAdded(UnturnedPlayer player, InventoryGroup group, byte index, ItemJar item)
 {
     Logger.Log($"{player.DisplayName} picked up item: {item.item.id}");
 }
@@ -168,8 +166,7 @@ private void OnPlayerInventoryAdded(UnturnedPlayer player, InventoryGroup group,
 ## OnPlayerInventoryRemoved
 Called when an item is removed from player's inventory.
 ```csharp
-private void OnPlayerInventoryRemoved(UnturnedPlayer player, InventoryGroup group, 
-    byte index, ItemJar item)
+private void OnPlayerInventoryRemoved(UnturnedPlayer player, InventoryGroup group, byte index, ItemJar item)
 {
     Logger.Log($"{player.DisplayName} removed item: {item.item.id}");
 }
@@ -178,8 +175,7 @@ private void OnPlayerInventoryRemoved(UnturnedPlayer player, InventoryGroup grou
 ## OnPlayerInventoryUpdated
 Called when an item in the player's inventory is updated.
 ```csharp
-private void OnPlayerInventoryUpdated(UnturnedPlayer player, InventoryGroup group, 
-    byte index, ItemJar item)
+private void OnPlayerInventoryUpdated(UnturnedPlayer player, InventoryGroup group, byte index, ItemJar item)
 {
     Logger.Log($"{player.DisplayName}'s inventory updated at index {index}");
 }
@@ -188,8 +184,7 @@ private void OnPlayerInventoryUpdated(UnturnedPlayer player, InventoryGroup grou
 ## OnPlayerInventoryResized
 Called when a player's inventory size changes.
 ```csharp
-private void OnPlayerInventoryResized(UnturnedPlayer player, InventoryGroup group, 
-    byte oldSize, byte newSize)
+private void OnPlayerInventoryResized(UnturnedPlayer player, InventoryGroup group, byte oldSize, byte newSize)
 {
     Logger.Log($"{player.DisplayName}'s {group} inventory resized from {oldSize} to {newSize}");
 }
