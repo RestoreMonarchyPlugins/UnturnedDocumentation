@@ -5,7 +5,7 @@ description: Documentation for Unturned developers about plugin development.
 ---
 # Unturned Developers Documentation
 
-Welcome to the Unturned developers documentation! This section provides comprehensive technical documentation for developing Unturned plugins using the RocketMod framework.
+Welcome to the Unturned developers documentation! This section provides technical documentation for developing Unturned plugins using the RocketMod framework.
 
 ## Overview
 This documentation covers:
