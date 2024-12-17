@@ -53,34 +53,34 @@ public class ExampleCommand : IRocketCommand
 ## Properties
 
 ### Basic Information
-- `CSteamID` (Steamworks.CSteamID) - Player's Steam ID
-- `Id` (string) - Steam64 ID as string (implements IRocketPlayer)
-- `DisplayName` (string) - Character name (implements IRocketPlayer)  
-- `CharacterName` (string) - In-game character name
-- `SteamName` (string) - Steam profile name
-- `IP` (string) - Player's IP address
-- `IsAdmin` (bool) - Whether player has admin status
-- `IsPro` (bool) - Whether player has Unturned Gold DLC
-- `Ping` (float) - Player's current ping
+- **CSteamID** (`Steamworks.CSteamID`) - Player's Steam ID
+- **Id** (`string`) - Steam64 ID as string (implements IRocketPlayer)
+- **DisplayName** (`string`) - Character name (implements IRocketPlayer)  
+- **CharacterName** (`string`) - In-game character name
+- **SteamName** (`string`) - Steam profile name
+- **IP** (`string`) - Player's IP address
+- **IsAdmin** (`bool`) - Whether player has admin status
+- **IsPro** (`bool`) - Whether player has Unturned Gold DLC
+- **Ping** (`float`) - Player's current ping
 
 ### Player State
-- `Health` (byte) - Current health (0-100)
-- `Hunger` (byte) - Current food level (0-100)
-- `Thirst` (byte) - Current water level (0-100) 
-- `Infection` (byte) - Current virus/infection level (0-100)
-- `Stamina` (byte) - Current stamina level (0-100)
-- `Experience` (uint) - Player's experience points
-- `Reputation` (int) - Player's reputation points
-- `Dead` (bool) - Whether player is dead
-- `Bleeding` (bool) - Get/set bleeding status
-- `Broken` (bool) - Get/set broken bones status
+- **Health** (`byte`) - Current health (0-100)
+- **Hunger** (`byte`) - Current food level (0-100)
+- **Thirst** (`byte`) - Current water level (0-100)
+- **Infection** (`byte`) - Current virus/infection level (0-100)
+- **Stamina** (`byte`) - Current stamina level (0-100)
+- **Experience** (`uint`) - Player's experience points
+- **Reputation** (`int`) - Player's reputation points
+- **Dead** (`bool`) - Whether player is dead
+- **Bleeding** (`bool`) - Get/set bleeding status
+- **Broken** (`bool`) - Get/set broken bones status
 
 ### Position & Movement
-- `Position` (UnityEngine.Vector3) - Current world position
-- `Rotation` (float) - Current Y-axis rotation
-- `Stance` (SDG.Unturned.EPlayerStance) - Current player stance (standing/crouching/prone)
-- `CurrentVehicle` (SDG.Unturned.InteractableVehicle) - Vehicle player is in (null if not in vehicle)
-- `IsInVehicle` (bool) - Whether player is in a vehicle
+- **Position** (`UnityEngine.Vector3`) - Current world position
+- **Rotation** (`float`) - Current Y-axis rotation
+- **Stance** (`SDG.Unturned.EPlayerStance`) - Current player stance (standing/crouching/prone)
+- **CurrentVehicle** (`SDG.Unturned.InteractableVehicle`) - Vehicle player is in (null if not in vehicle)
+- **IsInVehicle** (`bool`) - Whether player is in a vehicle
 
 ## Methods
 
