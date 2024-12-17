@@ -3,7 +3,7 @@ position: 2
 title: Creating a Project
 authors: MCrow
 category: developers
-published: true
+published: false
 description: In this guide, we will create a new Unturned plugin project using the Unturned Plugin project template. We will add a log message to the plugin and test it on an Unturned server.
 ---
 

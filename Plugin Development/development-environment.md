@@ -3,7 +3,7 @@ position: 1
 title: Development Environment
 authors: MCrow
 category: developers
-published: true
+published: false
 description: Setting up your development environment is the first step to creating plugins for Unturned. This guide will help you set up Visual Studio and install project templates for creating plugins.
 ---
 
