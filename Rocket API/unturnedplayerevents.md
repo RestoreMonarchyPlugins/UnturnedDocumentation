@@ -14,7 +14,7 @@ List of events that can be used in Rocket plugins from the [UnturnedPlayerEvents
 - Always unsubscribe from events in `Unload()` to prevent memory leaks
 - Event handlers must match the exact signature of the event
 - Use `ref` parameters when required by the event signature
-- Namespace is `using Rocket.Unturned.Events`
+- `using Rocket.Unturned.Events;` is required
 
 ## Quick Example
 ```csharp

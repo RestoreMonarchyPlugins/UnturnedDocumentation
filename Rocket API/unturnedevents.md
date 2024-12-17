@@ -13,6 +13,7 @@ List of events that be used in Rocket plugins from [UnturnedEvents](https://gith
 - Always unsubscribe in `Unload()` to prevent memory leaks
 - Event handlers must match the exact signature of the event
 - Use `ref` parameters when required by the event signature
+- `using Rocket.Unturned;` is required
 
 ## Quick Example
 ```csharp
