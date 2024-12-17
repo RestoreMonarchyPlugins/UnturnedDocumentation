@@ -53,36 +53,36 @@ public class ExampleCommand : IRocketCommand
 ## Properties
 
 ### Basic Information
-- `CSteamID` - Player's Steam ID
-- `Id` - Steam64 ID as string (implements IRocketPlayer)
-- `DisplayName` - Character name (implements IRocketPlayer)
-- `CharacterName` - In-game character name
-- `SteamName` - Steam profile name
-- `IP` - Player's IP address
-- `IsAdmin` - Whether player has admin status
-- `IsPro` - Whether player has Unturned Gold DLC
-- `Ping` - Player's current ping
+- `CSteamID` (Steamworks.CSteamID) - Player's Steam ID
+- `Id` (string) - Steam64 ID as string (implements IRocketPlayer)
+- `DisplayName` (string) - Character name (implements IRocketPlayer)  
+- `CharacterName` (string) - In-game character name
+- `SteamName` (string) - Steam profile name
+- `IP` (string) - Player's IP address
+- `IsAdmin` (bool) - Whether player has admin status
+- `IsPro` (bool) - Whether player has Unturned Gold DLC
+- `Ping` (float) - Player's current ping
 
 ### Player State
-- `Health` - Current health (0-100)
-- `Hunger` - Current food level (0-100)
-- `Thirst` - Current water level (0-100)
-- `Infection` - Current virus/infection level (0-100)
-- `Stamina` - Current stamina level (0-100)
-- `Experience` - Player's experience points
-- `Reputation` - Player's reputation points
-- `Dead` - Whether player is dead
-- `Bleeding` - Get/set bleeding status
-- `Broken` - Get/set broken bones status
+- `Health` (byte) - Current health (0-100)
+- `Hunger` (byte) - Current food level (0-100)
+- `Thirst` (byte) - Current water level (0-100) 
+- `Infection` (byte) - Current virus/infection level (0-100)
+- `Stamina` (byte) - Current stamina level (0-100)
+- `Experience` (uint) - Player's experience points
+- `Reputation` (int) - Player's reputation points
+- `Dead` (bool) - Whether player is dead
+- `Bleeding` (bool) - Get/set bleeding status
+- `Broken` (bool) - Get/set broken bones status
 
 ### Position & Movement
-- `Position` - Current world position (Vector3)
-- `Rotation` - Current Y-axis rotation
-- `Stance` - Current player stance (standing/crouching/prone)
-- `CurrentVehicle` - Vehicle player is in (null if not in vehicle)
-- `IsInVehicle` - Whether player is in a vehicle
+- `Position` (UnityEngine.Vector3) - Current world position
+- `Rotation` (float) - Current Y-axis rotation
+- `Stance` (SDG.Unturned.EPlayerStance) - Current player stance (standing/crouching/prone)
+- `CurrentVehicle` (SDG.Unturned.InteractableVehicle) - Vehicle player is in (null if not in vehicle)
+- `IsInVehicle` (bool) - Whether player is in a vehicle
 
-### Methods
+## Methods
 
 ### Item Management
 ```csharp
@@ -182,7 +182,12 @@ bool isLimitedAccount = steamProfile?.IsLimitedAccount ?? false;
 You can access Unity components on the player using GetComponent:
 
 ```csharp
-PlayerLife life = player.GetComponent<PlayerLife>();
+// Add your own component to the player
+UnturnedPlayer player = /* ... */;
+player.Player.gameObject.AddComponent<MyComponent>();
+
+// Access existing components
+MyComponent myComponent = player.GetComponent<MyComponent>();
 ```
 
 ## Notes
