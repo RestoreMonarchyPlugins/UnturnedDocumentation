@@ -7,6 +7,7 @@ published: true
 description: List of events that be used in Rocket plugins from UnturnedEvents class.
 ---
 # Unturned Events
+List of events that be used in Rocket plugins from [UnturnedEvents](https://github.com/SmartlyDressedGames/Legally-Distinct-Missile/blob/master/Rocket.Unturned/Events/UnturnedEvents.cs) class.
 ## Important Notes
 - Always subscribe to events in `Load()` method
 - Always unsubscribe in `Unload()` to prevent memory leaks
@@ -17,26 +18,25 @@ description: List of events that be used in Rocket plugins from UnturnedEvents c
 ```csharp
 public class ExamplePlugin : RocketPlugin<ExampleConfiguration>
 {
-    private void HandleConnect(UnturnedPlayer player)
-    {
-        Logger.Log($"{player.DisplayName} connected!");
-    }
-
     protected override void Load()
     {
-        U.Events.OnPlayerConnected += HandleConnect;
+        U.Events.OnPlayerConnected += HandlePlayerConnect;
     }
 
     protected override void Unload()
     {
-        U.Events.OnPlayerConnected -= HandleConnect;
+        U.Events.OnPlayerConnected -= HandlePlayerConnect;
+    }
+
+    private void HandlePlayerConnect(UnturnedPlayer player)
+    {
+        Logger.Log($"{player.DisplayName} connected!");
     }
 }
 ```
 
-
 ## OnPlayerConnected
-Called when player completes connection.
+Called when player joins the server.
 ```csharp
 private void HandlePlayerConnect(UnturnedPlayer player)
 {
@@ -45,7 +45,7 @@ private void HandlePlayerConnect(UnturnedPlayer player)
 ```
 
 ## OnBeforePlayerConnected
-Called before player completes connection.
+Called before player joins the server.
 ```csharp
 private void HandleBeforeConnect(UnturnedPlayer player)
 {
