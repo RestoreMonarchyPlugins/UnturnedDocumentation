@@ -14,7 +14,7 @@ The [UnturnedPlayer](https://github.com/SmartlyDressedGames/Legally-Distinct-Mis
 
 ### Converting Players
 Remember that you can get instance of UnturnedPlayer only from players that are currently connected to the server.
-```csharp
+```cs
 // From SDG.Unturned.Player
 SDG.Unturned.Player nativePlayer = /* ... */;
 UnturnedPlayer player = UnturnedPlayer.FromPlayer(nativePlayer);
@@ -34,7 +34,7 @@ UnturnedPlayer player = UnturnedPlayer.FromName("76561198012345678");
 
 ### Usage in Commands
 
-```csharp
+```cs
 public class ExampleCommand : IRocketCommand
 {
     public AllowedCaller AllowedCaller => AllowedCaller.Player;
@@ -85,7 +85,7 @@ public class ExampleCommand : IRocketCommand
 ## Methods
 
 ### Item Management
-```csharp
+```cs
 // Give item by ID
 player.GiveItem(289, 1); // Gives 1 Maple Gun
 
@@ -97,7 +97,7 @@ PlayerInventory inventory = player.Inventory;
 ```
 
 ### Player State Modification
-```csharp
+```cs
 // Heal player
 player.Heal(100); // Full heal
 player.Heal(50, false, true); // Heal 50, stop bleeding, keep broken
@@ -116,7 +116,7 @@ player.Suicide();
 ```
 
 ### Teleportation
-```csharp
+```cs
 // Teleport to coordinates
 player.Teleport(new Vector3(100, 100, 100), 90f);
 
@@ -129,7 +129,7 @@ player.Teleport("seattle"); // Teleports to node containing "seattle"
 ```
 
 ### Skills & Experience
-```csharp
+```cs
 // Set experience
 player.Experience = 1000;
 
@@ -143,7 +143,7 @@ byte level = player.GetSkillLevel(skill);
 ```
 
 ### Admin Actions
-```csharp
+```cs
 // Kick player
 player.Kick("Reason for kick");
 
@@ -158,7 +158,7 @@ player.Admin(true, instigatorPlayer); // Give admin with instigator
 ```
 
 ### Visual Effects
-```csharp
+```cs
 // Trigger effect on player
 player.TriggerEffect(123); // Effect ID 123
 ```
@@ -167,7 +167,7 @@ player.TriggerEffect(123); // Effect ID 123
 Using Steam profile information in the game thread can cause lag, because it's fetched from the Steam API.  
 **Executing it on the main thread will cause LAG!**
 
-```csharp
+```cs
 // Get Steam profile
 // Since it's being fetched, make sure to assign it to a variable if you need to use it multiple times.
 Profile steamProfile = player.SteamProfile;
@@ -181,7 +181,7 @@ bool isLimitedAccount = steamProfile?.IsLimitedAccount ?? false;
 
 You can access Unity components on the player using GetComponent:
 
-```csharp
+```cs
 // Add your own component to the player
 UnturnedPlayer player = /* ... */;
 player.Player.gameObject.AddComponent<MyComponent>();
