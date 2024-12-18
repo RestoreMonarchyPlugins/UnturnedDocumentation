@@ -3,7 +3,7 @@ position: 3
 title: Patch Any Code with Harmony!
 authors: sunnamed
 category: developers
-published: false
+published: true
 description: Learn how to patch any code with Harmony.
 ---
 
