@@ -3,7 +3,7 @@ position: 1
 title: Getting Started
 authors: MCrow
 category: servers
-published: true
+published: false
 description: Learn how to start your own Unturned server and build a community.
 ---
 
