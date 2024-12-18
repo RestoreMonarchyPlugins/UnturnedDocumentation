@@ -3,7 +3,7 @@ position: 3
 title: Patch Any Code with Harmony!
 authors: sunnamed
 category: developers
-published: true
+published: false
 description: Learn how to patch any code with Harmony.
 ---
 
@@ -19,7 +19,7 @@ The [Harmony Docs](https://harmony.pardeike.net/articles/intro.html) are your be
 
 # Getting Started
 
-First, download [Lib.Harmony](https://www.nuget.org/packages/Lib.Harmony) for your project. Alternatively, you can download the `.dll` file from [GitHub Releases](https://github.com/pardeike/Harmony/releases) and reference it manually. I recommend using version `2.2.2`, as it's widely supported by plugins.
+First, download [Lib.Harmony](https://www.nuget.org/packages/Lib.Harmony) for your project. Alternatively, you can download the `.dll` file from [GitHub Releases](https://github.com/pardeike/Harmony/releases) and reference it manually. I recommend using version `2.2.2`, as it's widely used by plugins.
 
 ## Steps
 
