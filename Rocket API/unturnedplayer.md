@@ -10,6 +10,11 @@ description: The UnturnedPlayer class is a wrapper around SDG.Unturned.Player th
 
 The [UnturnedPlayer](https://github.com/SmartlyDressedGames/Legally-Distinct-Missile/blob/master/Rocket.Unturned/Player/UnturnedPlayer.cs) class is a wrapper around **SDG.Unturned.Player** that provides additional functionality and integrates with the Rocket framework. It implements **IRocketPlayer** for use with Rocket's permission system and commands.
 
+## Important Notes
+- Always validate **IRocketPlayer** is **UnturnedPlayer** before casting to avoid exceptions
+- The **UnturnedPlayer.Player** property provides access to the underlying **SDG.Unturned.Player** if needed
+- Never use **UnturnedPlayer.Profile** in the game thread, as it fetches data from the Steam API and can cause LAG!!!
+
 ## Common Usage Examples
 
 ### Converting Players
@@ -189,9 +194,3 @@ player.Player.gameObject.AddComponent<MyComponent>();
 // Access existing components
 MyComponent myComponent = player.GetComponent<MyComponent>();
 ```
-
-## Notes
-- Always validate IRocketPlayer is UnturnedPlayer before casting in commands
-- The Player property provides access to the underlying SDG.Unturned.Player if needed
-- Many methods have multiple overloads for different use cases
-- Some properties are read-only while others can be modified
