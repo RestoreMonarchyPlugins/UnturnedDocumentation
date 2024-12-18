@@ -11,7 +11,7 @@ description: Learn how to patch any code with Harmony.
 
 Have you ever wanted to create a plugin but couldn’t do it without changing Unturned's code? Or maybe you wanted to fix someone else's plugin? There’s a solution for that! You can edit anyone's code directly from your own plugin using [Harmony](https://github.com/pardeike/Harmony).
 
-In this guide, I'll show you how to use Harmony. At the end, you can download a free example plugin that demonstrates best practices. It makes zombies ignore you completely when you're vanished!
+In this guide, I'll show you how to use Harmony. We will try to stop animals from doing any damage. In the end, you can also download a free example plugin that demonstrates best practices. It makes zombies ignore you completely when you've vanished (`/vanish`)!
 
 # Harmony Documentation
 
@@ -134,7 +134,9 @@ Here are some topics to explore next:
 - **Learn Harmony Transpilers:** Replace or modify code in a method. ([Harmony Transpiler Guide](https://harmony.pardeike.net/articles/patching-transpiler.html))  
 - **Learn IL Code Basics:** Helps with advanced patches like Transpilers. ([Read about IL Code](https://en.wikipedia.org/wiki/Common_Intermediate_Language))  
 - **Handle Harmony Exceptions:** Show Harmony errors in logs.  
-- **Protect against bad unpatching:** Patch `UnpatchAll()` to prevent other plugins from breaking your patches.  
+- **Protect against bad unpatching:** Patch `UnpatchAll()` to prevent other plugins from breaking your patches.
+- **What if someone already patched what you already patched?**
+- **Manual Patching**: Find a specific Type and method and patch it, so you don't need any classes for patching.
 
 # Real Plugin Example
 
