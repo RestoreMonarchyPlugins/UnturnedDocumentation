@@ -1,7 +1,7 @@
 # Unturned Documentation
 Restore Monarchy documentation about Unturned server hosting and Rocket.  
 
-Servers documentation: [restoremonarchy.com/servers/docs](https://restoremonarchy.com/servers/docs)
+Servers documentation: [restoremonarchy.com/servers/docs](https://restoremonarchy.com/servers/docs)  
 Developers documentation: [restoremonarchy.com/developers/docs](https://restoremonarchy.com/developers/docs)
 
 ## Contributing
