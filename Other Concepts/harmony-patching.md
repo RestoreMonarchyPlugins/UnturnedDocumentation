@@ -37,18 +37,22 @@ using HarmonyLib;
 
 public class UPets : RocketPlugin
 {
-    public const string HarmonyId = "com.restoremonarchy.upets";
+    private const string HarmonyId = "com.restoremonarchy.upets"; // Unique ID for your Harmony instance.
     private Harmony harmony;
 
     protected override void Load()
     {
         harmony = new Harmony(HarmonyId);
-        harmony.PatchAll(); // Applies all patches in your plugin.
+        harmony.PatchAll(); // Applies all patches defined in your plugin.
     }
 
     protected override void Unload()
     {
-        harmony.UnpatchAll(); // Removes all patches in your plugin.
+        // Removes only the patches applied by this Harmony instance.
+        harmony.UnpatchAll(HarmonyId); 
+
+        // Important: Without specifying the `HarmonyId`, calling `UnpatchAll()` will remove patches from 
+        // all plugins that use Harmony.
     }
 }
 ```
