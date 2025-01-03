@@ -45,7 +45,6 @@ This guide will walk you through the process of installing and configuring works
    - Locate the `"File_IDs"` field with square brackets
    - Paste the ID between the brackets
    - Save the file
-
     ```json
     {
         "File_IDs": [
