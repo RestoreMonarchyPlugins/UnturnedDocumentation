@@ -45,21 +45,21 @@ This guide will walk you through the process of installing and configuring works
    - Locate the `"File_IDs"` field with square brackets
    - Paste the ID between the brackets
    - Save the file
-    ```json
-    {
-        "File_IDs": [
-            2876376295
-        ],
-        "Ignore_Children_File_IDs": [],
-        "Query_Cache_Max_Age_Seconds": 10,
-        "Max_Query_Retries": 2,
-        "Use_Cached_Downloads": false,
-        "Should_Monitor_Updates": true,
-        "Shutdown_Update_Detected_Timer": 600,
-        "Shutdown_Update_Detected_Message": "Workshop file update detected, shutdown in: {0}",
-        "Shutdown_Kick_Message": "Shutdown for Workshop file update."
-    }
-    ```
+```json
+{
+    "File_IDs": [
+        2876376295
+    ],
+    "Ignore_Children_File_IDs": [],
+    "Query_Cache_Max_Age_Seconds": 10,
+    "Max_Query_Retries": 2,
+    "Use_Cached_Downloads": false,
+    "Should_Monitor_Updates": true,
+    "Shutdown_Update_Detected_Timer": 600,
+    "Shutdown_Update_Detected_Message": "Workshop file update detected, shutdown in: {0}",
+    "Shutdown_Kick_Message": "Shutdown for Workshop file update."
+}
+```
 
 4. Restart your server
    - The map will be downloaded during server startup
