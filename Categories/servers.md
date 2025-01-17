@@ -16,7 +16,7 @@ This documentation covers:
 
 ## New to Server Hosting?
 This documentation will help you get started.  
-If you haven't got a server yet we recommend starting by reading our [Self Hosting](/servers/docs/self-hosting) and [Third-Party Hosting](/servers/docs/third-party-hosting) guides. They will help you decide which hosting option is best for you.
+If you haven't got a server yet we recommend starting by reading our [Self Hosting](/servers/docs/unturned-server/self-hosting) and [Third-Party Hosting](/servers/docs/unturned-server/third-party-hosting) guides. They will help you decide which hosting option is best for you.
 
 If you have a server then feel free to explore the rest of the documentation to learn more about possible configurations, Rocket plugins, and more.
 
