@@ -7,21 +7,22 @@ published: true
 description: List of options for the Commands.dat file that can be used to configure your Unturned server.
 ---
 
-The **Commands.dat** file is key to setting up and customizing your Unturned server. It allows you to configure the server's map, name, slots, and other options. This guide provides a full list of commands for the **Commands.dat** file, along with descriptions of their functions and how to use them properly.
+# Commands.dat
+The Commands.dat file tells your Unturned server what map to use, what to call itself, how many players can join, and other settings.
 
-You'll find this file in the `Server/Commands.dat` directory of your server installation. For example, it might be located at:
+## Where is it located?
+You'll find this file in the `Server/Commands.dat` directory of your server. For example, it might be located at:
 ```
 Servers/unturned/Server/Commands.dat
 ```
 
-All the commands in the **Commands.dat** are executed when the server starts before the map is loaded. 
+## How it works?
+All the commands in the **Commands.dat** are executed when the server starts before the map is loaded.  
 
 ![Server execute loading](assets/commands_execute_load.png)
 
-Some of them can be executed while the server is running for example **maxplayers**.
-Below is a complete list of commands for your **Commands.dat** file, with descriptions of what they do and how to use them and examples.
-
-### Commands Table
+## Table of Commands
+Below is a complete list of commands for your **Commands.dat** file, with descriptions of what they do, how to use them and examples.
 | Name | Example | Description |
 |------|---------|-------------|
 | **bind** | `bind 127.0.0.1` | Sets the IP address of the server. |
@@ -30,7 +31,9 @@ Below is a complete list of commands for your **Commands.dat** file, with descri
 | **cycle** | `cycle 60` | Sets the cycle of the server in seconds. Default is 3600. |
 | **filter** | `filter` | When used it rejects players with invalid characters in their name. |
 | **gold** | `gold` | When used only players with Gold Upgrade DLC can join the server. |
+| **hide_admins** | `hide_admins` | When used it hides admins from the player list. |
 | **loadout** | `loadout 255/2/3` | Sets the player loadout for the server. [Learn More](#loadout) |
+| **map** | `map Washington` | Sets the map of the server. |
 | **maxplayers** | `maxplayers 24` | Sets the maximum number of players that can join the server. |
 | **mode** | `mode easy` | Sets the difficulty of the server to `easy`, `normal`, or `hard`. |
 | **name** | `name MyServer [KITS, TPA]` | Sets the name of the server. Cannot be longer than 50 characters. |
@@ -42,9 +45,9 @@ Below is a complete list of commands for your **Commands.dat** file, with descri
 | **queue_size** | `queue_size 32` | Sets the queue size of the server. Default is 8 and max value is 64. |
 | **votify** | `/votify Y/300/300/60/60/8` | Sets the vote settings for the server. [Learn More](#votify) |
 | **welcome** | `welcome Welcome to my server!` | Sets the welcome message for the server. |
+| **whitelisted** | `whitelisted` | When used only whitelisted players can join the server. |
 
-
-### Loadout
+## Loadout
 The `loadout` command sets the skillset and items given to players when they first join the server or respawn.  
 The first number is the skill set ID, and the following numbers are the item IDs. They must be separated by `/` slashes.
 
@@ -57,7 +60,7 @@ Useful links:
 - [List of skillsets with IDs at official Unturned Wiki](https://unturned.wiki.gg/wiki/Skills#Skillsets)
 - [List of vanilla items with IDs at uEdit.co](https://unturned.uedit.co/Unturned/Vanilla/Items/)
 
-### Votify
+## Votify
 The `votify` command sets the vote settings for the server. The parameters must be separated by `/` slashes and are as follows:
 1. Vote Allowed (Y/N) - Whether voting is allowed on the server.
 2. Pass Cooldown - The cooldown in seconds after a vote passes.
@@ -70,7 +73,7 @@ Examples:
 - `votify Y/300/300/60/60/8` - Allows voting, with a pass and fail cooldown of 300 seconds, a vote duration of 60 seconds, a yes percentage of 60%, and a minimum of 8 players required to start a vote.
 - `votify Y/120/90/30/70/4` - Allows voting, with a pass cooldown of 120 seconds, a fail cooldown of 90 seconds, a vote duration of 30 seconds, a yes percentage of 70%, and a minimum of 4 players required to start a vote.
 
-### Video Tutorial
+## Video Tutorial
 Check out our video tutorial on how to set the name for your server, change map and enable third person perspective. All by editing the Commands.dat file.
 
 [video=938cade6-d826-4728-85e5-dae5f31f8331]
