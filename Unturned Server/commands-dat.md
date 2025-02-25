@@ -23,6 +23,7 @@ All the commands in the **Commands.dat** are executed when the server starts bef
 
 ## Table of Commands
 Below is a complete list of commands for your **Commands.dat** file, with descriptions of what they do, how to use them and examples.
+
 | Name | Example | Description |
 |------|---------|-------------|
 | **bind** | `bind 127.0.0.1` | Sets the IP address of the server. |
