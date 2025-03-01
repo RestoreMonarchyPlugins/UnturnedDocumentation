@@ -4,7 +4,7 @@ title: Hosting
 authors: MCrow
 category: servers
 published: true
-description: 
+description: Learn about hosting an Unturned server and choose the right option for you.
 ---
 
 # Hosting Unturned Server
