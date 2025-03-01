@@ -18,14 +18,36 @@ Hosting an Unturned server can be done in several ways. Here are the most common
 Free and easy way to play with your friends and learn how to set up a server. However it's not recommended for hosting a public servers.
 
 ### Advantages
-- Free
-- Easy to set up
+<ul class="list-unstyled">
+    <li class="text-success">
+        <i class="bi bi-check2"></i>
+        <span class="ms-2">Free</span>
+    </li>
+    <li class="text-success">
+        <i class="bi bi-check2"></i>
+        <span class="ms-2">Easy to set up</span>
+    </li>
+</ul>
 
 ### Disadvantages
-- Performance issues when your computer is not powerful enough to run a server and play the game at the same time
-- Stability problems, because when you turn off your computer or it crashes, the server goes down
-- If your internet connection is not stable, players will experience lag
-- If you want to keep the server online 24/7, the electricity bill will increase
+<ul class="list-unstyled">
+    <li class="text-danger">
+        <i class="bi bi-x"></i>
+        <span class="ms-2">Performance issues when your computer isn't powerful enough</span>
+    </li>
+    <li class="text-danger">
+        <i class="bi bi-x"></i>
+        <span class="ms-2">Stability problems when your computer is turned off or crashes</span>
+    </li>
+    <li class="text-danger">
+        <i class="bi bi-x"></i>
+        <span class="ms-2">Lag if your internet connection isn't stable</span>
+    </li>
+    <li class="text-danger">
+        <i class="bi bi-x"></i>
+        <span class="ms-2">Increased electricity bill for 24/7 operation</span>
+    </li>
+</ul>
 
 ### Tutorial
 We have a tutorial on how to set up an Unturned server on your computer.
@@ -36,15 +58,40 @@ We have a tutorial on how to set up an Unturned server on your computer.
 Best and most popular option for hosting a public Unturned server is to rent a server from a hosting company.
 
 ### Advantages
-- You don't need to worry about the technical stuff like port forwarding, DDoS protection, or server maintenance
-- No need to keep your computer running 24/7
-- 24/7 availability - your server will be online even when you're not
-- Reliable performance compared to hosting on your computer that you use for other tasks
-- Easy to set up and manage
+<ul class="list-unstyled">
+    <li class="text-success">
+        <i class="bi bi-check2"></i>
+        <span class="ms-2">No technical worries (port forwarding, DDoS protection, maintenance)</span>
+    </li>
+    <li class="text-success">
+        <i class="bi bi-check2"></i>
+        <span class="ms-2">No need to keep your computer running 24/7</span>
+    </li>
+    <li class="text-success">
+        <i class="bi bi-check2"></i>
+        <span class="ms-2">24/7 availability</span>
+    </li>
+    <li class="text-success">
+        <i class="bi bi-check2"></i>
+        <span class="ms-2">Reliable performance</span>
+    </li>
+    <li class="text-success">
+        <i class="bi bi-check2"></i>
+        <span class="ms-2">Easy to set up and manage</span>
+    </li>
+</ul>
 
 ### Disadvantages
-- Reccuring costs (from $5 to $30 per month)
-- Reliance on the hosting company
+<ul class="list-unstyled">
+    <li class="text-danger">
+        <i class="bi bi-x"></i>
+        <span class="ms-2">Recurring costs ($5 to $30 per month)</span>
+    </li>
+    <li class="text-danger">
+        <i class="bi bi-x"></i>
+        <span class="ms-2">Reliance on the hosting company</span>
+    </li>
+</ul>
 
 ### List of hosting companies
 - **[Restore Monarchy](/hosting)**
@@ -57,16 +104,44 @@ Best and most popular option for hosting a public Unturned server is to rent a s
 We have tried and tested running an Unturned server on Raspberry Pi 5. Here's what we found.
 
 ### Advantages
-- Low power consumption compared to a regular computer
-- Cheap to keep running 24/7
-- Low monthly cost compared to third-party hosting
-- Great learning experience for beginners
+<ul class="list-unstyled">
+    <li class="text-success">
+        <i class="bi bi-check2"></i>
+        <span class="ms-2">Low power consumption</span>
+    </li>
+    <li class="text-success">
+        <i class="bi bi-check2"></i>
+        <span class="ms-2">Cheap to keep running 24/7</span>
+    </li>
+    <li class="text-success">
+        <i class="bi bi-check2"></i>
+        <span class="ms-2">Low monthly cost compared to third-party hosting</span>
+    </li>
+    <li class="text-success">
+        <i class="bi bi-check2"></i>
+        <span class="ms-2">Great learning experience for beginners</span>
+    </li>
+</ul>
 
 ### Disadvantages
-- Not powerful enough for large maps like Russia or Germany
-- Hard to set up
-- High initial cost (Raspberry Pi 5 Kit wiht accessories costs around $150)
-- Requires a good and stable internet connection
+<ul class="list-unstyled">
+    <li class="text-danger">
+        <i class="bi bi-x"></i>
+        <span class="ms-2">Not powerful enough for large maps</span>
+    </li>
+    <li class="text-danger">
+        <i class="bi bi-x"></i>
+        <span class="ms-2">Hard to set up</span>
+    </li>
+    <li class="text-danger">
+        <i class="bi bi-x"></i>
+        <span class="ms-2">High initial cost (around $150)</span>
+    </li>
+    <li class="text-danger">
+        <i class="bi bi-x"></i>
+        <span class="ms-2">Requires good and stable internet connection</span>
+    </li>
+</ul>
 
 ### Guide
 We have written a guide on how to set up an Unturned server on Raspberry Pi 5.
@@ -76,12 +151,28 @@ We have written a guide on how to set up an Unturned server on Raspberry Pi 5.
 If you want to have full control over your server and have a powerful machine, you can rent a dedicated server.
 
 ### Advantages
-- Host multiple servers on one machine
-- Full control over the server and its resources
+<ul class="list-unstyled">
+    <li class="text-success">
+        <i class="bi bi-check2"></i>
+        <span class="ms-2">Host multiple servers on one machine</span>
+    </li>
+    <li class="text-success">
+        <i class="bi bi-check2"></i>
+        <span class="ms-2">Full control over the server and its resources</span>
+    </li>
+</ul>
 
 ### Disadvantages
-- Requires technical knowledge
-- High costs (from $50 to $200 per month)
+<ul class="list-unstyled">
+    <li class="text-danger">
+        <i class="bi bi-x"></i>
+        <span class="ms-2">Requires technical knowledge</span>
+    </li>
+    <li class="text-danger">
+        <i class="bi bi-x"></i>
+        <span class="ms-2">High costs ($50 to $200 per month)</span>
+    </li>
+</ul>
 
 ### List of hosting companies
 - [OVH](https://www.ovh.com/) (America, Europe, Asia and Australia)
