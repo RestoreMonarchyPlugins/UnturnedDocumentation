@@ -10,6 +10,11 @@ description: List of vanilla player commands that can be used in-game on the ser
 # Vanilla Commands
 This the list of vanilla player commands on the server that can be used in-game as an admin. 
 
+> **💡 PRO TIP**  
+> If you have Rocket or OpenMod installed on your server, instead of using `/` as a separator, you must use ` ` (space) as a separator.  
+> That's why when you want to include space in the message or reason, you must use quotes.   
+For example: `/say "Welcome to our server!" 255 0 0` instead of `/say Welcome to our server!/255/0/0`.
+
 ## Table of Contents
 - [Non-Cheats Commands](#non-cheats-commands)
     - [Admin](#admin)
@@ -35,11 +40,6 @@ This the list of vanilla player commands on the server that can be used in-game 
 
 ## Non-Cheats Commands
 This is a list of vanilla player commands that can be used in-game on the server as an admin by typing them in the chat.
-
-> **💡 PRO TIP**  
-> If you have Rocket or OpenMod installed on your server, instead of using `/` as a separator, you must use ` ` (space) as a separator.  
-> That's why when you want to include space in the message or reason, you must use quotes.   
-For example: `/say "Welcome to our server!" 255 0 0` instead of `/say Welcome to our server!/255/0/0`.
 
 ### Admin
 The `admin` command is used to give a player admin blue hammer. Admin can use all commands and has access to all permissions.
