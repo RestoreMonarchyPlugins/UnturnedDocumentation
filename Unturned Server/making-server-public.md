@@ -1,5 +1,5 @@
 ---
-position: 4
+position: 11
 title: Making Server Public
 authors: MCrow
 category: servers

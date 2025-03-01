@@ -1,6 +1,6 @@
 ---
-position: 8
-title: Workshop Map
+position: 12
+title: Installing Workshop Map
 authors: MCrow
 category: servers
 published: true

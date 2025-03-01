@@ -1,5 +1,5 @@
 ---
-position: 9
+position: 6
 title: WorkshopDownloadConfig.json
 authors: MCrow
 category: servers

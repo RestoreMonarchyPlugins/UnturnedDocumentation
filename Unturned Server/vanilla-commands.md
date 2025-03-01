@@ -1,5 +1,5 @@
 ---
-position: 6
+position: 8
 title: Vanilla Commands
 authors: MCrow
 category: servers
