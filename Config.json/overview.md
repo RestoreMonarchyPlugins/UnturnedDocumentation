@@ -10,7 +10,7 @@ description: Learn about the Config.json file and how to configure your Unturned
 # Config.json
 The `Config.json` is the main configuration file for your Unturned server. It contains all the settings that control how your server behaves. 
 
-You can find this file in the same `Servers/Default` or `Servers/unturned` directory as the `WorkshopDownloadConfig.json` file. 
+You can find this file in the same `Servers/Default` or `Servers/unturned` directory as the **[WorkshopDownloadConfig.json](../unturned-server/workshopdownloadconfig-json)** file. 
 
 ## Structure
 The `Config.json` file is divided into several sections that control different aspects of the server. Here is a typical structure of the `Config.json` file:
@@ -38,7 +38,7 @@ Config.json
 
 It is important to know what difficulty is your server set to, as it will determine which settings are used. The `Easy`, `Normal`, and `Hard` sections contain the settings for each difficulty level.
 
-By default the server is set to `Normal` unless you change it in the [Commands.dat](../unturned-server/commands_dat) file.
+By default the server is set to `Normal` unless you change it in the [Commands.dat](../unturned-server/commands-dat) file.
 
 ## Sections
 We have written detailed guides for each section of the `Config.json` file.
