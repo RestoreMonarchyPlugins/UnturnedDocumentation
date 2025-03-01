@@ -8,11 +8,14 @@ description:
 ---
 
 # Hosting Unturned Server
-Hosting an Unturned server can be done in several ways. Here are the most common ways to host an Unturned server:
+Hosting an Unturned server can be done in several ways. We have listed the most popular options and their pros and cons.
+
+## Table of Contents
 - [Your Computer](#your-computer)
 - [Game Server Hosting](#game-server-hosting)
 - [Raspberry Pi](#raspberry-pi)
 - [Dedicated Server](#dedicated-server)
+- [Summary](#summary)
 
 ## Your Computer
 Free and easy way to play with your friends and learn how to set up a server. However it's not recommended for hosting a public servers.
