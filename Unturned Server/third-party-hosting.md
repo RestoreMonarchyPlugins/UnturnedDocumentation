@@ -3,7 +3,7 @@ position: 3
 title: Third-Party Hosting
 authors: MCrow
 category: servers
-published: true
+published: false
 description: Learn about third-party hosting and how to choose the right hosting company for your Unturned server.
 ---
 
