@@ -1,12 +1,39 @@
 ---
 position: 6
-title: Commands
+title: Vanilla Commands
 authors: MCrow
 category: servers
-published: false
+published: true
 description: List of vanilla player commands that can be used in-game on the server as an admin.
 ---
 
+# Vanilla Commands
+This the list of vanilla player commands on the server that can be used in-game as an admin. 
+
+## Table of Contents
+- [Non-Cheats Commands](#non-cheats-commands)
+    - [Admin](#admin)
+    - [Unadmin](#unadmin)
+    - [Ban](#ban)
+    - [Unban](#unban)
+    - [Kick](#kick)
+    - [Spy](#spy)
+    - [Day](#day)
+    - [Night](#night)
+    - [Weather](#weather)
+    - [Time](#time)
+    - [Airdrop](#airdrop)
+    - [Say](#say)
+    - [Teleport](#teleport)
+    - [Video Tutorial](#video-tutorial)
+- [Cheats Commands](#cheats-commands)
+    - [Give](#give)
+    - [Vehicle](#vehicle)
+    - [Experience](#experience)
+    - [Animal](#animal)
+    - [Video Tutorial](#video-tutorial)
+
+## Non-Cheats Commands
 This is a list of vanilla player commands that can be used in-game on the server as an admin by typing them in the chat.
 
 > **💡 PRO TIP**  
@@ -32,7 +59,7 @@ The `unadmin` command is used to remove admin blue hammer from a player.
 
 > **💡 PRO TIP**  
 > Unfortunately there is no way to remove admin from someone who is offline. If you want you can delete all admins.  
-Stop the server and delete the `Adminlist.dat` file which you will find in the same directory as `Commands.dat`.
+Stop the server and delete the `Adminlist.dat` file which you will find in the same directory as **[Commands.dat](commands-dat)**
 
 ### Ban
 The `ban` command is used to ban a player from the server for a specified time.  
@@ -54,7 +81,7 @@ The `unban` command is used to unban a player from the server.
 **Example:** `/unban 76561198285897058`
 
 > **💡 PRO TIP**  
-> If you want to delete all bans from the server, stop the server and delete the `Blacklist.dat` file in the same directory as `Commands.dat`.
+> If you want to delete all bans from the server, stop the server and delete the `Blacklist.dat` file in the same directory as **[Commands.dat](commands-dat)**.
 
 ### Kick
 The `kick` command is used to kick a player from the server.
@@ -140,3 +167,54 @@ The `teleport` command is a complex command that can be used in different ways t
 Check out our video where we show you how to use 10 of these commands in-game.
 
 [video=8b1061f4-72c4-4417-91a8-6f884bfefbb6]
+
+## Cheats Commands
+In order to be able to use cheats commands, you need to have enabled cheats in the server **[Commands.dat](commands-dat)** file. You can do this by simply adding the `cheats` to the file.
+
+If you are hosting multiplayer server I don't recommend enabling cheats, because then your server won't be listed in the server browser for players with default filters.  
+
+If you want to use commands to spawn in items and vehicles, I recommend installing Rocket on your server and using the commands `/i` and `/v` instead.
+
+### Give
+The `give` command is used to spawn in items.
+
+**Syntax:** `/give [player]/<item>/[amount]`
+- `[player]`: The name of the player to give the item to. If not specified, the item is given to the player who executed the command.
+- `<item>`: The id of the item to spawn.
+- `[amount]`: The 
+
+**Example:** `/give 15/2`, `/give 363`, `/give MCrow/254/5`
+
+> **💡 PRO TIP**  
+> When you are specifying the amount of items, you need to use the `/` character to separate the item id and the amount.
+
+### Vehicle
+The `vehicle` command is used to spawn in vehicles at your current position.
+
+**Syntax:** `/vehicle <vehicle>`
+- `<vehicle>`: The id of the vehicle to spawn.
+
+**Example:** `/vehicle 93`
+
+### Experience
+The `experience` command is used to give experience to a player.
+
+**Syntax:** `/experience [player]/<amount>`
+- `[player]`: The name of the player to give the experience to. If not specified, the experience is given to the player who executed the command.
+- `<amount>`: The amount of experience to give.
+
+**Example:** `/experience 1000`, `/experience MCrow/500`
+
+### Animal
+The `animal` command is used to spawn in animals at your current position.
+
+**Syntax:** `/animal <animal>`
+- `<animal>`: The id of the animal to spawn.
+
+**Example:** `/animal 3`
+
+
+### Video Tutorial
+Here is a video tutorial on how to use cheats commands in Unturned.
+
+[video=bc9386bf-bd04-419e-a032-a4f456bc1a87]
