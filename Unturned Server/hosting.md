@@ -17,7 +17,7 @@ Hosting an Unturned server can be done in several ways. Here are the most common
 ## Your Computer
 Free and easy way to play with your friends and learn how to set up a server. However it's not recommended for hosting a public servers.
 
-### Advantages
+### Pros & Cons
 <ul class="list-unstyled ps-0">
     <li class="text-success">
         <i class="bi bi-check2"></i>
@@ -27,10 +27,6 @@ Free and easy way to play with your friends and learn how to set up a server. Ho
         <i class="bi bi-check2"></i>
         <span class="ms-2">Easy to set up</span>
     </li>
-</ul>
-
-### Disadvantages
-<ul class="list-unstyled ps-0">
     <li class="text-danger">
         <i class="bi bi-x"></i>
         <span class="ms-2">Performance issues when your computer isn't powerful enough</span>
@@ -57,7 +53,7 @@ We have a tutorial on how to set up an Unturned server on your computer.
 ## Game Server Hosting
 Best and most popular option for hosting a public Unturned server is to rent a server from a hosting company.
 
-### Advantages
+### Pros & Cons
 <ul class="list-unstyled ps-0">
     <li class="text-success">
         <i class="bi bi-check2"></i>
@@ -79,10 +75,6 @@ Best and most popular option for hosting a public Unturned server is to rent a s
         <i class="bi bi-check2"></i>
         <span class="ms-2">Easy to set up and manage</span>
     </li>
-</ul>
-
-### Disadvantages
-<ul class="list-unstyled ps-0">
     <li class="text-danger">
         <i class="bi bi-x"></i>
         <span class="ms-2">Recurring costs ($5 to $30 per month)</span>
@@ -103,7 +95,7 @@ Best and most popular option for hosting a public Unturned server is to rent a s
 ## Raspberry Pi
 We have tried and tested running an Unturned server on Raspberry Pi 5. Here's what we found.
 
-### Advantages
+### Pros & Cons
 <ul class="list-unstyled ps-0">
     <li class="text-success">
         <i class="bi bi-check2"></i>
@@ -121,10 +113,6 @@ We have tried and tested running an Unturned server on Raspberry Pi 5. Here's wh
         <i class="bi bi-check2"></i>
         <span class="ms-2">Great learning experience for beginners</span>
     </li>
-</ul>
-
-### Disadvantages
-<ul class="list-unstyled ps-0">
     <li class="text-danger">
         <i class="bi bi-x"></i>
         <span class="ms-2">Not powerful enough for large maps</span>
@@ -150,7 +138,7 @@ We have written a guide on how to set up an Unturned server on Raspberry Pi 5.
 ## Dedicated Server
 If you want to have full control over your server and have a powerful machine, you can rent a dedicated server.
 
-### Advantages
+### Pros & Cons
 <ul class="list-unstyled ps-0">
     <li class="text-success">
         <i class="bi bi-check2"></i>
@@ -160,10 +148,6 @@ If you want to have full control over your server and have a powerful machine, y
         <i class="bi bi-check2"></i>
         <span class="ms-2">Full control over the server and its resources</span>
     </li>
-</ul>
-
-### Disadvantages
-<ul class="list-unstyled ps-0">
     <li class="text-danger">
         <i class="bi bi-x"></i>
         <span class="ms-2">Requires technical knowledge</span>
