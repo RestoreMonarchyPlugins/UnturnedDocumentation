@@ -86,11 +86,11 @@ Best and most popular option for hosting a public Unturned server is to rent a s
 </ul>
 
 ### List of hosting companies
-- **[Restore Monarchy](/hosting)**
-- [Pine Hosting](https://pinehosting.com/)
-- [Bisect Hosting](https://www.bisecthosting.com/)
-- [Sparked Host](https://sparkedhost.com/unturned-hosting)
-- [Wasabi Hosting](https://wasabihosting.com/store/unturned)
+- **[Restore Monarchy](/hosting)** (America, Europe and Asia)
+- [Pine Hosting](https://pinehosting.com/) (America and Europe)
+- [Bisect Hosting](https://www.bisecthosting.com/) (America, Europe, Asia and Australia)
+- [Sparked Host](https://sparkedhost.com/unturned-hosting) (America, Europe, Asia and Australia)
+- [Wasabi Hosting](https://wasabihosting.com/store/unturned) (Europe)
 
 ## Raspberry Pi
 We have tried and tested running an Unturned server on Raspberry Pi 5. Here's what we found.
