@@ -7,6 +7,7 @@ published: true
 description: Learn how to configure the in-game browser settings for your Unturned server.
 ---
 
+# Browser
 The `Browser` section in the `Config.json` file is used to configure the in-game browser settings for your Unturned server. This section allows you to customize the appearance including the icon, thumbnail, descriptions, monetization settings and more.
 
 Based on [Official Unturned Wiki](https://unturned.wiki.gg/wiki/Gameplay_config#Browser) and our experience.

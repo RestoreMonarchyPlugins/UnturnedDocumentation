@@ -6,8 +6,9 @@ category: servers
 published: true
 description: Gameplay settings can control the repair level, hitmarkers, crosshair, and other gameplay features.
 ---
-![items](assets/gameplay.png)
+![gameplay](assets/gameplay.png)
 
+# Gameplay
 Gameplay settings can control the repair level, hitmarkers, crosshair, and other gameplay features.
 
 Based on [Official Unturned Wiki](https://unturned.wiki.gg/wiki/Gameplay_config#Gameplay) and our experience.

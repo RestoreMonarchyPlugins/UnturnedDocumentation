@@ -9,6 +9,7 @@ description: Items settings can adjust the loot on the server, change the qualit
 
 ![items](assets/items.png)
 
+# Items
 Items settings allow you to increase loot on the server, change the quality of items, and toggle durability for all or different item types.
 
 Based on [Official Unturned Wiki](https://unturned.wiki.gg/wiki/Gameplay_config#Items) and our experience.

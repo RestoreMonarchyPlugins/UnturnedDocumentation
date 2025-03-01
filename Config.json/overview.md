@@ -38,7 +38,7 @@ Config.json
 
 It is important to know what difficulty is your server set to, as it will determine which settings are used. The `Easy`, `Normal`, and `Hard` sections contain the settings for each difficulty level.
 
-By default the server is set to `Normal` unless you change it in the [Commands.dat](../unturned-server/commands-dat) file.
+By default the server is set to `Normal` unless you change it in the **[Commands.dat](../unturned-server/commands-dat)** file.
 
 ## Sections
 We have written detailed guides for each section of the `Config.json` file.

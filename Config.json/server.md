@@ -7,6 +7,8 @@ published: true
 description: Server section allows you to customize server settings like VAC and BattlEye security, ping limits, timeouts, rate limits, fake lag, scheduled shutdowns, and more.
 ---
 
+# Server
+
 Server section allows you to customize server settings like VAC and BattlEye security, ping limits, timeouts, rate limits, fake lag, scheduled shutdowns, and more. This section is used to configure the server's behavior and security settings.
 
 Based on [Official Unturned Wiki](https://unturned.wiki.gg/wiki/Gameplay_config#Server) and our experience.

@@ -7,6 +7,7 @@ published: true
 description: Objects settings can adjust the reset time and drop rates of objects, as well as toggle holiday drops like the Christmas tree with presents in the military base on Washington.
 ---
 
+# Objects
 Objects settings can adjust the reset time and drop rates of objects, as well as toggle holiday drops like the Christmas tree with presents in the military base on Washington.
 
 Based on [Official Unturned Wiki](https://unturned.wiki.gg/wiki/Gameplay_config#Objects) and our experience.
