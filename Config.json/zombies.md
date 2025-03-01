@@ -60,7 +60,7 @@ Based on [Official Unturned Wiki](https://unturned.wiki.gg/wiki/Gameplay_config#
 }
 ```
 
-### Spawn_Chance
+## Spawn_Chance
 Percent chance (represented as a decimal) for any given zombie spawn node to spawn a zombie. Value must be within a range of **0.0** to **1.0**.
 
 For example **0.2** means **20%** chance to spawn a zombie. Setting this value to **0.0** will prevent zombies from spawning.
@@ -72,57 +72,57 @@ Zombie spawn nodes on official maps:
 - **Russia** - 2458
 - **Germany** - 1955
 
-### Loot_Chance
+## Loot_Chance
 Percent chance (represented as a decimal) for any given zombie to drop loot. Value must be within a range of **0.0** to **1.0**.
 
 ![](assets/zombies_loot_chance.png)
 
-### Crawler_Chance
+## Crawler_Chance
 The chance for a zombie to spawn as a crawler. Value should be within a range of **0.0** to **0.5**.
 
 ![](assets/zombie_crawler.png)
 
-### Sprinter_Chance
+## Sprinter_Chance
 The chance for a zombie to spawn as a sprinter. Value should be within a range of **0.0** to **0.5**.
 
 ![](assets/zombie_sprinter.png)
 
-### Flanker_Chance
+## Flanker_Chance
 The chance for a zombie to spawn as a flanker. Value should be within a range of **0.0** to **0.5**.
 
 ![](assets/zombie_flanker.png)
 
-### Burner_Chance
+## Burner_Chance
 The chance for a zombie to spawn as a burner. Value should be within a range of **0.0** to **0.5**.
 
 ![](assets/zombie_burner.png)
 
-### Acid_Chance
+## Acid_Chance
 The chance for a zombie to spawn as an acid zombie. Value should be within a range of **0.0** to **0.5**.
 
 ![](assets/zombie_acid.png)
 
-### Boss_Electric_Chance
+## Boss_Electric_Chance
 The chance for a zombie to spawn as an electric boss. Value should be within a range of **0.0** to **0.5**.
 
 ![](assets/zombie_electric_boss.png)
 
-### Boss_Wind_Chance
+## Boss_Wind_Chance
 The chance for a zombie to spawn as a wind boss. Value should be within a range of **0.0** to **0.5**.
 
 ![](assets/zombie_wind_boss.png)
 
-### Boss_Fire_Chance
+## Boss_Fire_Chance
 The chance for a zombie to spawn as a fire boss. Value should be within a range of **0.0** to **0.5**.
 
 ![](assets/zombie_fire_boss.png)
 
-### Spirit_Chance
+## Spirit_Chance
 The chance for a zombie to spawn as a spirit. Value should be within a range of **0.0** to **0.5**.
 
 ![](assets/zombie_spirit.png)
 
-### DL_Red_Volatile_Chance
+## DL_Red_Volatile_Chance
 The chance for a zombie to spawn as a red volatile. Value should be within a range of **0.0** to **0.5**.
 
 ![](assets/zombie_volatile.png)
@@ -130,37 +130,37 @@ The chance for a zombie to spawn as a red volatile. Value should be within a ran
 > **💡 PRO TIP**  
 > Volatile zombies can only spawn at night.
 
-### DL_Blue_Volatile_Chance
+## DL_Blue_Volatile_Chance
 The chance for a zombie to spawn as a blue volatile. Value should be within a range of **0.0** to **0.5**.
 
 ![](assets/zombie_blue_volatile.png)
 
-### Boss_Elver_Stomper_Chance
+## Boss_Elver_Stomper_Chance
 The chance for a zombie to spawn as an Elver stomper boss. Value should be within a range of **0.0** to **0.5**.
 
-### Boss_Kuwait_Chance
+## Boss_Kuwait_Chance
 The chance for a zombie to spawn as a Kuwait boss. Value should be within a range of **0.0** to **0.5**.
 
-### Respawn_Day_Time
+## Respawn_Day_Time
 The time in seconds it takes for a zombie to respawn during the day.
 
-### Respawn_Night_Time
+## Respawn_Night_Time
 The time in seconds it takes for a zombie to respawn during the night.
 
-### Respawn_Beacon_Time
+## Respawn_Beacon_Time
 The time in seconds it takes for a zombie to respawn during a horde beacon.
 
-### Quest_Boss_Respawn_Interval
+## Quest_Boss_Respawn_Interval
 How many seconds it takes for a boss zombie spawned from a quest to attempt to spawn a new boss zombie. This setting is useful to prevent players from easily farming boss-tier loot. 
 
 For example Kaiser Zombie Boss zombie from the quest on Germany map.
 
-### Damage_Multiplier
+## Damage_Multiplier
 Multiplier for the damage dealt by zombies. **0.75** means **75%** of the default damage.
 
 The default damage of normal zombies on official maps is **15**, so with **0.75** multiplier the damage they deal is **11**.
 
-### Armor_Multiplier
+## Armor_Multiplier
 Multiplier for the armor of zombies when they are hit in the head. 
 
 If you want to modify the armor of zombies when they are hit in other parts of the body, you can use the **NonHeadshot_Armor_Multiplier** setting.
@@ -169,43 +169,43 @@ The lower the value the less damage zombies take.
 
 For example setting this value to **0.5** will make zombies take **50%** less damage, so it's like they would have **200** HP instead of **100**, which is the default value on official maps.
 
-### Backstab_Multiplier
+## Backstab_Multiplier
 Multiplier for the damage dealt by backstabbing zombies. Backstabbing is hitting a zombie in the back.
 
-### NonHeadshot_Armor_Multiplier
+## NonHeadshot_Armor_Multiplier
 Multiplier for the armor of zombies when they are not hit in the head.
 
-### Beacon_Experience_Multiplier
+## Beacon_Experience_Multiplier
 Multiplier for the experience gained from killing zombies during a horde beacon.
 
-### Full_Moon_Experience_Multiplier
+## Full_Moon_Experience_Multiplier
 Multiplier for the experience gained from killing zombies during a full moon night.
 
-### Min_Drops
+## Min_Drops
 Minimum number of items dropped by a normal, crawler, sprinter, flanker, burner, acid, and spirit zombies.
 
-### Max_Drops
+## Max_Drops
 Maximum number of items dropped by a normal, crawler, sprinter, flanker, burner, acid, and spirit zombies.
 
-### Min_Mega_Drops
+## Min_Mega_Drops
 Minimum number of items dropped by a mega zombie.
 
-### Max_Mega_Drops
+## Max_Mega_Drops
 Maximum number of items dropped by a mega zombie.
 
-### Min_Boss_Drops
+## Min_Boss_Drops
 Minimum number of items dropped by a boss zombie.
 
-### Max_Boss_Drops
+## Max_Boss_Drops
 Maximum number of items dropped by a boss zombie.
 
-### Slow_Movement
+## Slow_Movement
 Whether or not zombies should move at the same speed as a walking player. When set to "false", zombies move 20% faster than the player. 
 
-### Work in progress
+## Work in progress
 We are still working on this page. If you have any suggestions or would like to contribute, please let us know!
 
-### Video Tutorials
+## Video Tutorials
 Check out our video tutorial on how to increase number of items dropped by zombies and loot on your server.
 
 [video=affd02b0-e416-4fbe-8363-86e4b2639813] 

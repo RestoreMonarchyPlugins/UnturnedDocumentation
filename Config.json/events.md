@@ -47,5 +47,5 @@ Based on [Official Unturned Wiki](https://unturned.wiki.gg/wiki/Gameplay_config#
 }
 ```
 
-### Work in progress
+## Work in progress
 We are still working on this page. If you have any suggestions or would like to contribute, please let us know!
