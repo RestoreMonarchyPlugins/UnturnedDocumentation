@@ -28,14 +28,22 @@ Based on [Official Unturned Wiki](https://unturned.wiki.gg/wiki/Gameplay_config#
 }
 ```
 
-### Respawn_Time
+## Table of Contents
+- [Respawn_Time](#respawn_time)
+- [Damage_Multiplier](#damage_multiplier)
+- [Armor_Multiplier](#armor_multiplier)
+- [Max_Instances](#max_instances)
+- [Weapons_Use_Player_Damage](#weapons_use_player_damage)
+- [Video Tutorial](#video-tutorial)
+
+## Respawn_Time
 How many seconds it takes for an animal spawn node to attempt to spawn a new animal.  
 
 This option doesn't make animals re-spawn more often and isn't very significant. It's just the time it takes for a spawn-point to attempt to spawn a new animal after the previous one was killed.
 
 I recommend leaving this value at **180**.
 
-### Damage_Multiplier
+## Damage_Multiplier
 Multiplier on the damage dealt by animals. When greater than **1**, more damage is dealt.  
 
 If you set `Damage_Multiplier` to 2, animals will deal twice as much damage as normal. 
@@ -45,14 +53,14 @@ If you set `Damage_Multiplier` to 2, animals will deal twice as much damage as n
 > **💡 PRO TIP**
 > Only bears and wolves attack players.
 
-### Armor_Multiplier
+## Armor_Multiplier
 Multiplier on the damage dealt to animals. When greater than **1**, more damage is dealt. 
 
 If you want to make animals harder to kill, you can set this value to **0.5.** For example:
 - **Cow** has **100** HP, so with `Armor_Multiplier` set to **0.5** player will have to deal **200** HP damage to kill it.
 - **Pig** has **50** HP, so with `Armor_Multiplier` set to **0.5** player will have to deal **100** HP damage to kill it.
 
-### Max_Instances
+## Max_Instances
 The maximum number of animals that can exist at the same time on a map of specific size.
 
 - **Tiny** - no official maps
@@ -75,10 +83,10 @@ Number of animal spawn-points on official survival maps:
 > **💡 PRO TIP**  
 > You can set up more spawn-points for animals on any map and modify their loot using our [Animal Manager](https://restoremonarchy.com/plugins/animalmanager) plugin.
 
-### Weapons_Use_Player_Damage
+## Weapons_Use_Player_Damage
 Whether or not a weapon's player damage values should be used instead of the weapon's animals damage values. Most weapons do less damage to players than they do to zombies. When set to **true**, weapons will usually be weaker against animals than they are normally. 
 
-### Video Tutorial
+## Video Tutorial
 Learn how to configure animals settings with our video tutorial.
 
 [video=67a1080c-4623-499d-ba3b-3ce017eb9d5b]
