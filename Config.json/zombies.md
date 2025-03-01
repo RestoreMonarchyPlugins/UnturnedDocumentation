@@ -4,6 +4,7 @@ title: Zombies
 authors: MCrow
 category: servers
 published: true
+description: Zombies settings allow you to configure the behavior of zombies on your server. You can change the spawn chance, loot chance, and other settings to make the game more challenging or easier.
 ---
 
 ![zombies](assets/zombies.png)
