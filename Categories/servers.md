@@ -14,6 +14,25 @@ This documentation covers:
 - Rocket installation, configuration, permissions, plugins and more
 - Full, detailed and complete documentation of Config.json file
 
+## Official Resources
+This is a list of official resources where you can find useful information about Unturned server hosting.
+- [Unturned Wiki](https://unturned.wiki.gg/)
+- [Unturned Documentation](https://docs.smartlydressedgames.com/en/stable/)
+- [Unturned Support](https://support.smartlydressedgames.com)
+
+## Support Channels
+This is a list of official support channels where you can ask for help or report issues.
+- [Unturned Support](https://support.smartlydressedgames)
+- [Unturned Forums](https://forum.smartlydressedgames.com/)
+- [Unturned Discord](https://discord.gg/unturned)
+- [Unturned Steam Discussions](https://steamcommunity.com/app/304930/discussions/)
+- [Unturned Reddit](https://www.reddit.com/r/unturned/)
+
+
+## Other Resources
+This is a list of unofficial resources where you can find useful information about Unturned server hosting.
+- 
+
 ## New to Server Hosting?
 This documentation will help you get started.  
 If you haven't got a server yet we recommend starting by reading our [Self Hosting](/servers/docs/unturned-server/self-hosting) and [Third-Party Hosting](/servers/docs/unturned-server/third-party-hosting) guides. They will help you decide which hosting option is best for you.

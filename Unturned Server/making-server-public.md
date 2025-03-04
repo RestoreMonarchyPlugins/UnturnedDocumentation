@@ -7,6 +7,8 @@ published: true
 description: Learn how to make your Unturned server public by creating a Game Server Login Token.
 ---
 
+
+
 ### Video Tutorial
 Check out our video tutorial on how to make your Unturned server public.
 
