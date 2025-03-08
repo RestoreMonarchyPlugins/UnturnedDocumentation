@@ -32,7 +32,6 @@ To make your server public, you need to create a Game Server Login Token (GSLT) 
 
 5. Go to your server files and open the **Config.json** file. Find and set the `Login_Token` field to the GSLT you copied.
 ```json
-{
 "Browser": {
     "Icon": "",
     "Thumbnail": "",
@@ -48,7 +47,7 @@ To make your server public, you need to create a Game Server Login Token (GSLT) 
 
 ### Video
 Watch this video to learn how to create a GSLT for your Unturned server.
-#### [How to Make Unturned Server Public](https://www.youtube.com/watch?v=ck--2zWlrlw)
+**[How to Make Unturned Server Public](https://www.youtube.com/watch?v=ck--2zWlrlw)**
 [video=7d19e2f9-4b35-4193-85f4-cd94c7915c03]
 
 ## Startup Command
@@ -58,8 +57,7 @@ Watch this video to learn how to create a GSLT for your Unturned server.
 2. Find the **ExampleServer.bat** file and run it. From now on, use this file to start your server.
 
 > **💡 PRO TIP**  
-> The `Example` in the command is the name of the folder where your server files are located in the **Servers** directory.
-> If you have already set up your server, replace `Example` with the name of your server folder, for example, `Default`.  
+> The `Example` in the command is the name of the folder where your server files are located in the **Servers** directory. If you have already set up your server, replace `Example` with the name of your server folder, for example, `Default`.  
 > Alternatively you can just rename the `Servers/Default` folder to `Servers/Example` and use the `ExampleServer.bat` file as is.  
 > ![Startup command](assets/startup_command.png)
 
