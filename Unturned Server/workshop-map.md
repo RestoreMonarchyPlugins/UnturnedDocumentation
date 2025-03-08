@@ -8,8 +8,6 @@ description: Learn how to install workshop maps on your Unturned server.
 ---
 
 # Installing Workshop Maps on Unturned Server
-
-## Overview
 This guide will walk you through the process of installing and configuring workshop maps on your Unturned server. You'll learn how to find workshop maps, install them on your server, and configure them properly. You can follow this guide whether you're hosting a server on your PC or using a game server hosting provider.
 
 ## Finding the Workshop Map
