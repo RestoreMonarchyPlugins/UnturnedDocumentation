@@ -10,9 +10,9 @@ description: Learn how to make your Unturned server public by creating a Game Se
 # Making Your Unturned Server Public
 In this guide, you'll learn how to make your Unturned server public. 
 
-If you host a server on a Game Server Hosting provider, like [our hosting](/hosting), you only need to create a [Game Server Login Token (GSLT)](#game-server-login-token-gslt).
+**If you host a server on a Game Server Hosting provider**, like [our hosting](/hosting), you only need to create a [Game Server Login Token (GSLT)](#game-server-login-token-gslt).
 
-If you host the server on your computer, you need to follow two additional steps to make your server public: [Startup Command](#startup-command) and [Fake IP](#fake-ip).
+**If you host the server on your computer**, you need to follow two additional steps to make your server public: [Startup Command](#startup-command) and [Fake IP](#fake-ip).
 
 ## Game Server Login Token (GSLT)
 To make your server public, you need to create a Game Server Login Token (GSLT) on Steam. This token is linked to your Steam account and allows your server to be listed on the public server list.
@@ -57,8 +57,8 @@ Watch this video to learn how to create a GSLT for your Unturned server.
 2. Find the **ExampleServer.bat** file and run it. From now on, use this file to start your server.
 
 > **💡 PRO TIP**  
-> The `Example` in the command is the name of the folder where your server files are located in the **Servers** directory. If you have already set up your server, replace `Example` with the name of your server folder, for example, `Default`.  
-> Alternatively you can just rename the `Servers/Default` folder to `Servers/Example` and use the `ExampleServer.bat` file as is.  
+> The `Example` in the command is the name of the folder where your server files are located in the **Servers** directory. If you have already set up your server, replace `Example` with the name of your server folder, for example, `Default` Alternatively you can just rename the `Servers/Default` folder to `Servers/Example` and use the `ExampleServer.bat` file as is.  
+> 
 > ![Startup command](assets/startup_command.png)
 
 
