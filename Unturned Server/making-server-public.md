@@ -4,11 +4,11 @@ title: Making Server Public
 authors: MCrow
 category: servers
 published: true
-description: Learn how to make your Unturned server public by creating a Game Server Login Token.
+description: Learn how to make your Unturned server public and visible in the server list. This guide covers creating a Game Server Login Token (GSLT), setting up a startup command, and using a fake IP to make your server public.
 ---
 
 # Making Your Unturned Server Public
-In this guide, you'll learn how to make your Unturned server public. 
+In this guide, you'll learn how to make your Unturned server public and visible in the server list. This is essential if you want other players to join your server.
 
 **If you host a server on a Game Server Hosting provider**, like [our hosting](/hosting), you only need to create a [Game Server Login Token (GSLT)](#game-server-login-token-gslt).
 
