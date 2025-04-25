@@ -32,9 +32,11 @@ Once you download the plugins you want to install, follow these steps to install
 3. Another explorer window will open with the extracted files. You will see two folders: **Libraries** and **Plugins**. 
 
 4. The **Libraries** folder contains the dependencies required for the plugin to work. You have to copy the **Libraries** folder files to the `Rocket/Libraries` directory of your server.
+
 ![rocket libraries directory](assets/rocket_libraries_directory.png "Rocket/Libraries directory")
 
 5. The **Plugins** folder contains the plugin files. You have to copy the **Plugins** folder files to the `Rocket/Plugins` directory of your server.  
+
 ![rocket plugins directory](assets/rocket_plugins_directory.png "Rocket/Plugins directory")
 
 6. Restart your server to apply the changes.
