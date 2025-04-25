@@ -7,6 +7,7 @@ published: true
 description: List of player commands that Rocket adds to the game.
 ---
 
+# Rocket Commands
 This is a list of player commands that Rocket adds to the game. These commands can be used in-game on the server as an admin by typing them in the chat.
 
 ## Table of Contents

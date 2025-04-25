@@ -8,8 +8,6 @@ description: Learn how to set up ranks and permissions on your Unturned server w
 ---
 
 # Rocket Permissions
-
-## Overview
 Rocket permissions system allows you to define groups which are also known as ranks or roles. Each group can have a set of permissions to execute certain commands or actions.  
 
 You will find `Permissions.config.xml` file in the `Rocket` directory of your server. For example, it might be located at:
