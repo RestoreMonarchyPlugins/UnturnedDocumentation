@@ -26,7 +26,10 @@ In all plugins that use a MySQL database, you need to set the database connectio
 Open the configuration file of the plugin that you want to use and look for the database connection settings. The settings may vary depending on the plugin you are using.
 
 While you are in file editor, you can also see the database connection information in by clicking the button with database icon in the top right corner like in the image below. This will show you the database connection information that you can use to connect to the database in your plugin configuration file.
-![database connection in file editor](assets/database-connection-in-file-editor.png)
+
+![database connection in file editor](assets/database-connection-in-file-editor.png "Database Connection button pointed with arrow")
+
+### Database Connection Information
 
 In plugins like [Uconomy](/servers/plugins/uconomy), [UPets](/servers/plugins/upets), [Moderation](/servers/plugins/moderation) etc. you have to set **address, username, password, database name** separately in the configuration file. For example, in Uconomy, you have to set the following values in the `Uconomy.configuration.xml` file:
 ```xml
@@ -47,6 +50,7 @@ You can find the values for these settings in the database connection informatio
 
 ![mysql details](assets/mysql-details.png "MySQL details highlighted with colors")
 
+### Connection String
 
 In plugins like [Advanced Economy](/servers/plugins/advancedeconomy), [MySQL Vault](/servers/plugins/mysqlvault), [Battlepass](/servers/plugins/battlepass) etc. you only need to set the connection string which contains all the information needed to connect to the database. For example, in Advanced Economy, you have to set the following value in the `AdvancedEconomy.configuration.xml` file:
 ```xml
