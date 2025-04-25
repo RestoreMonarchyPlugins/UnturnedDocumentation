@@ -9,24 +9,6 @@ description: Learn how to set up ranks and permissions on your Unturned server w
 
 # Rocket Permissions
 
-## Table of Contents
-- [Overview](#overview)
-- [Configuration File Structure](#configuration-file-structure)
-- [Configuration Elements](#configuration-elements)
-  - [Default Group](#default-group)
-  - [Groups](#groups)
-  - [Group Properties](#group-properties)
-    - [Id](#id)
-    - [Display Name](#display-name)
-    - [Prefix](#prefix)
-    - [Suffix](#suffix)
-    - [Color](#color)
-    - [Members](#members)
-    - [ParentGroup](#parentgroup)
-    - [Priority](#priority)
-    - [Permissions](#permissions)
-- [Video Tutorial](#video-tutorial)
-
 ## Overview
 Rocket permissions system allows you to define groups which are also known as ranks or roles. Each group can have a set of permissions to execute certain commands or actions.  
 
