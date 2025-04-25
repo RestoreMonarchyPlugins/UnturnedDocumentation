@@ -9,7 +9,18 @@ description: List of player commands that Rocket adds to the game.
 
 This is a list of player commands that Rocket adds to the game. These commands can be used in-game on the server as an admin by typing them in the chat.
 
-### Kill
+## Table of Contents
+- [Kill](#kill)
+- [Permissions](#permissions)
+- [Vanish](#vanish)
+- [God](#god)
+- [Heal](#heal)
+- [Tp](#tp)
+- [Tphere](#tphere)
+- [Item](#item)
+- [Vehicle](#vehicle)
+
+## Kill
 The `kill` command is used to kill a player.
 
 **Syntax:** `/kill <player>`
@@ -17,22 +28,22 @@ The `kill` command is used to kill a player.
 
 **Example:** `/kill MCrow`
 
-### Permissions
+## Permissions
 The `permissions` command is used to display a list of all permissions.
 
 **Syntax:** `/p`
 
-### Vanish
+## Vanish
 The `vanish` command is used to make yourself invisible. It can be also used to disable the vanish mode.
 
 **Syntax:** `/vanish`
 
-### God
+## God
 The `god` command is used to enable or disable god mode. When god mode is enabled, you are invincible.
 
 **Syntax:** `/god`
 
-### Heal
+## Heal
 The `heal` command is used to heal a player or yourself.
 
 **Syntax:** `/heal [player]`
@@ -40,7 +51,7 @@ The `heal` command is used to heal a player or yourself.
 
 **Example:** `/heal MCrow`
 
-### Tp
+## Tp
 The `tp` command is used to teleport to a player.
 
 **Syntax:** `/tp <player>`
@@ -48,7 +59,7 @@ The `tp` command is used to teleport to a player.
 
 **Example:** `/tp MCrow`
 
-### Tphere
+## Tphere
 The `tphere` command is used to teleport a player to you.
 
 **Syntax:** `/tphere <player>`
@@ -56,7 +67,7 @@ The `tphere` command is used to teleport a player to you.
 
 **Example:** `/tphere MCrow`
 
-### Item
+## Item
 The `item` command is used to spawn in items.
 
 **Syntax:** `/i <item> [amount]`
@@ -65,7 +76,7 @@ The `item` command is used to spawn in items.
 
 **Example:** `/i candy 20`
 
-### Vehicle
+## Vehicle
 The `vehicle` command is used to spawn in vehicles.
 
 **Syntax:** `/v <vehicle>`

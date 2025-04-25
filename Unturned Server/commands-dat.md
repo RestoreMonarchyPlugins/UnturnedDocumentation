@@ -10,6 +10,13 @@ description: List of options for the Commands.dat file that can be used to confi
 # Commands.dat
 The Commands.dat file tells your Unturned server what map to use, what to call itself, how many players can join, and other settings.
 
+
+## Where is Commands.dat located?
+You'll find this file in the `Server/Commands.dat` directory of your server. For example, it might be located at:
+```
+Servers/unturned/Server/Commands.dat
+```
+
 ## Table of Commands
 Below is a complete list of commands for your **Commands.dat** file, with descriptions of what they do, how to use them and examples.
 
@@ -62,12 +69,6 @@ The `votify` command sets the vote settings for the server. The parameters must 
 Examples:
 - `votify Y/300/300/60/60/8` - Allows voting, with a pass and fail cooldown of 300 seconds, a vote duration of 60 seconds, a yes percentage of 60%, and a minimum of 8 players required to start a vote.
 - `votify Y/120/90/30/70/4` - Allows voting, with a pass cooldown of 120 seconds, a fail cooldown of 90 seconds, a vote duration of 30 seconds, a yes percentage of 70%, and a minimum of 4 players required to start a vote.
-
-## Where is Commands.dat located?
-You'll find this file in the `Server/Commands.dat` directory of your server. For example, it might be located at:
-```
-Servers/unturned/Server/Commands.dat
-```
 
 ## How Commands.dat works?
 All the commands in the **Commands.dat** are executed when the server starts before the map is loaded.  
