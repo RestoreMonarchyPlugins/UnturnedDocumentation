@@ -52,3 +52,7 @@ line to copy and paste in the `<Plugins>` section.
 ![fplugins loader add plugin](assets/fplugins-loader-add-plugin.png)
 
 10. Save the **FPluginsLoader.RocketMod.configuration.xml** file and restart the server. The plugins will be downloaded and installed automatically.
+
+## Video Tutorial
+We have a video tutorial that shows you how to set up and use our premium plugins on your Unturned server. You can watch it below:
+[video=dbc054a5-210e-4e76-a425-dd7bc2d87900]
