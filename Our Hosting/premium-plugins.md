@@ -19,7 +19,7 @@ Before you can use it, you need to link your account with Discord, because FPlug
 
 ![link discord](assets/link-discord.png)
 
-> After pressing the "Link Discord" button, you will be redirected to the account management page where you need to click "Link account" and then authorize **Restore Monarchy** to access your Discord account username, avatar and email. This is necessary to create an account on FPlugins.
+> After pressing the "Link Discord" button, you will be redirected to the account management page where you need to click "Link account" and then authorize Restore Monarchy to access your Discord account username, avatar and email. This is necessary to create an account on FPlugins.
 > ![link discord](assets/link-discord-2.png)
 
 3. After linking your Discord account, go back to the **[User Plugins](https://restoremonarchy.com/user/plugins)** page, refresh the page if you still see the **Link Discord** button, and press the **Create Account** button to create an account on FPlugins.
@@ -46,8 +46,7 @@ Before you can use it, you need to link your account with Discord, because FPlug
 
 ![fplugins loader secret](assets/fplugins-loader-secret.png)
 
-9. Finally, in the `<Plugins>` section, you can add the plugins you want to use. The list of plugins is avaiable on the same **[User Plugins](https://restoremonarchy.com/user/plugins)** page. When you click on the info icon next to the plugin name, it will open a dialog with the 
-line to copy and paste in the `<Plugins>` section.
+9. Finally, in the `<Plugins>` section, you can add the plugins you want to use. The list of plugins is avaiable on the same **[User Plugins](https://restoremonarchy.com/user/plugins)** page. When you click on the info icon next to the plugin name, it will open a dialog with the line to copy and paste in the `<Plugins>` section.
 
 ![fplugins loader add plugin](assets/fplugins-loader-add-plugin.png)
 
