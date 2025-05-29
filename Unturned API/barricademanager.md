@@ -8,17 +8,12 @@ description: List of events that be used in Rocket plugins from BarricadeManager
 ---
 # Unturned BarricadeManager Events
 List of events that be used in Rocket plugins from [BarricadeManager](https://github.com/Unturned-Datamining/Unturned-Datamining/blob/linux-client-preview/Assembly-CSharp/SDG.Unturned/BarricadeManager.cs) class.
+
 ## Important Notes
 - Always subscribe to events in `Load()` method
 - Always unsubscribe in `Unload()` to prevent memory leaks
 - Event handlers must match the exact signature of the event
 - Use `ref` parameters when required by the event signature
-- `using Rocket.Core.Plugins;` is required
-- `using Rocket.Unturned.Chat;` is required
-- `using Rocket.Unturned.Player;` is required
-- `using SDG.Unturned;` is required
-- `using Steamworks;` is required
-- `using UnityEngine;` is required
 
 ## Quick Example
 ```csharp
@@ -40,7 +35,7 @@ public class ExamplePlugin : RocketPlugin<ExampleConfiguration>
         UnturnedPlayer unturnedPlayer = UnturnedPlayer.FromCSteamID(instigatorSteamID);
 
         // Informs the player that the barricade is being repaired with information on how much hp it is being repaired for 
-        UnturnedChat.Say(unturnedPlayer ,$"You repaired the barricade for {totalHealing} HP.!", Color.green);
+        UnturnedChat.Say(unturnedPlayer, $"You repaired the barricade for {totalHealing} HP.!", Color.green);
     }
 }
 ```

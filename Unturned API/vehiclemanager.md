@@ -8,15 +8,12 @@ description: List of events that be used in Rocket plugins from VehicleManager c
 ---
 # Unturned VehicleManager Events
 List of events that be used in Rocket plugins from [VehicleManager](https://github.com/Unturned-Datamining/Unturned-Datamining/blob/linux-client-preview/Assembly-CSharp/SDG.Unturned/VehicleManager.cs) class.
+
 ## Important Notes
 - Always subscribe to events in `Load()` method
 - Always unsubscribe in `Unload()` to prevent memory leaks
 - Event handlers must match the exact signature of the event
 - Use `ref` parameters when required by the event signature
-- `using Steamworks;` is required
-- `using SDG.Unturned;` is required
-- `using Rocket.Unturned.Player;` is required
-- `using Rocket.Core.Plugins;` is required
 
 ## Quick Example
 ```csharp
