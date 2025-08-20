@@ -39,18 +39,18 @@ The Workshop ID is: `2876376295` so you should add it to the `File_IDs` like thi
 ```
 
 ## Ignore_Children_File_IDs
-The `Ignore_Children_File_IDs` array contains the Steam Workshop IDs of the mods that should not be downloaded, even if they are dependencies of the mods specified in the `File_IDs` array.
+The `Ignore_Children_File_IDs` array contains the Steam Workshop IDs of the mods that are specified in the `File_IDs` array, but you don't want their required items to be downloaded. 
 
 ![Hawaii required items](assets/hawaii-required-items.png)
 
-For example [Hawaii](https://steamcommunity.com/sharedfiles/filedetails/?id=1753134636) map has [Hawaii Assets](https://steamcommunity.com/workshop/filedetails/?id=1753131903) in required items. If you want to download only Hawaii map, you should add Hawaii map ID to `File_IDs` and Hawaii Assets ID to `Ignore_Children_File_IDs`.
+For example, the Hawaii map has Hawaii Assets as a required item. If you want to download Hawaii map without its dependency Hawaii Assets, you should add Hawaii map ID to `File_IDs` and `Ignore_Children_File_IDs`.
 
 ```json
 "File_IDs": [
     1753134636 // Hawaii map
 ],
 "Ignore_Children_File_IDs": [
-    1753131903 // Hawaii Assets
+    1753134636 // Hawaii map, so Hawaii Assets don't get downloaded
 ],
 ```
 
