@@ -44,7 +44,7 @@ public class ExamplePlugin : RocketPlugin<ExampleConfiguration>
 ```
 
 ## onDamageResourceRequested
-This event is called when player is trying to repair a barricade.
+This event is called when resource takes damage (from player or zombie for example).
 ```csharp
 private void HandlePlayerOnDamageResourceRequested2(CSteamID instigatorSteamID, Transform objectTransform, ref ushort pendingTotalDamage, ref bool shouldAllow, EDamageOrigin damageOrigin)
 {
