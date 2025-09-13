@@ -10,6 +10,9 @@ description: Vehicles settings control their decay time, respawn time, and the n
 ![vehicles](assets/vehicles.png)
 
 # Vehicles
+> 📌 **IMPORTANT NOTICE**  
+> As of Unturned version **3.25.8.0** the `Config.json` file has been replaced by the new `Config.txt` file. This guide is kept for historical purposes, but we recommend using the **[Config.txt](/servers/docs/unturned-server/config-txt)** file for configuring your Unturned server.
+
 Vehicles settings control their decay time, respawn time, and the number of vehicles that can spawn on the server.
 
 Based on [Official Unturned Wiki](https://unturned.wiki.gg/wiki/Gameplay_config#Vehicles) and our experience.

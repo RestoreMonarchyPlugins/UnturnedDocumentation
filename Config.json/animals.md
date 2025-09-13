@@ -10,6 +10,9 @@ description: Animals settings can control the number of animals that spawn on yo
 ![animals](assets/animals.png)
 
 # Animals
+> 📌 **IMPORTANT NOTICE**  
+> As of Unturned version **3.25.8.0** the `Config.json` file has been replaced by the new `Config.txt` file. This guide is kept for historical purposes, but we recommend using the **[Config.txt](/servers/docs/unturned-server/config-txt)** file for configuring your Unturned server.
+
 Animals settings can control the number of animals that spawn on your server, their armor and damage multipliers.
 
 Based on [Official Unturned Wiki](https://unturned.wiki.gg/wiki/Gameplay_config#Animals) and our experience.

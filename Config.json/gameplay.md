@@ -9,6 +9,9 @@ description: Gameplay settings can control the repair level, hitmarkers, crossha
 ![gameplay](assets/gameplay.png)
 
 # Gameplay
+> 📌 **IMPORTANT NOTICE**  
+> As of Unturned version **3.25.8.0** the `Config.json` file has been replaced by the new `Config.txt` file. This guide is kept for historical purposes, but we recommend using the **[Config.txt](/servers/docs/unturned-server/config-txt)** file for configuring your Unturned server.
+
 Gameplay settings can control the repair level, hitmarkers, crosshair, and other gameplay features.
 
 Based on [Official Unturned Wiki](https://unturned.wiki.gg/wiki/Gameplay_config#Gameplay) and our experience.

@@ -8,6 +8,9 @@ description: Objects settings can adjust the reset time and drop rates of object
 ---
 
 # Objects
+> 📌 **IMPORTANT NOTICE**  
+> As of Unturned version **3.25.8.0** the `Config.json` file has been replaced by the new `Config.txt` file. This guide is kept for historical purposes, but we recommend using the **[Config.txt](/servers/docs/unturned-server/config-txt)** file for configuring your Unturned server.
+
 Objects settings can adjust the reset time and drop rates of objects, as well as toggle holiday drops like the Christmas tree with presents in the military base on Washington.
 
 Based on [Official Unturned Wiki](https://unturned.wiki.gg/wiki/Gameplay_config#Objects) and our experience.

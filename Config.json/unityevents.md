@@ -8,6 +8,8 @@ description: UnityEvents is a section of debug options used for certain communit
 ---
 
 # UnityEvents
+> 📌 **IMPORTANT NOTICE**  
+> As of Unturned version **3.25.8.0** the `Config.json` file has been replaced by the new `Config.txt` file. This guide is kept for historical purposes, but we recommend using the **[Config.txt](/servers/docs/unturned-server/config-txt)** file for configuring your Unturned server.
 
 UnityEvents is a section of debug options used for certain community-made game modifications. It doesn't include any interesting options, so I recommend leaving it as it is.
 

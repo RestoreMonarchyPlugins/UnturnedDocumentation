@@ -8,6 +8,10 @@ description: Learn about the Config.json file and how to configure your Unturned
 ---
 
 # Config.json
+> 📌 **IMPORTANT NOTICE**  
+> As of Unturned version **3.25.8.0** the `Config.json` file has been replaced by the new `Config.txt` file. This guide is kept for historical purposes, but we recommend using the **[Config.txt](/servers/docs/unturned-server/config-txt)** file for configuring your Unturned server.
+
+
 The `Config.json` is the main configuration file for your Unturned server. It contains all the settings that control how your server behaves. 
 
 You can find this file in the same `Servers/Default` or `Servers/unturned` directory as the **[WorkshopDownloadConfig.json](../unturned-server/workshopdownloadconfig-json)** file. 

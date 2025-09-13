@@ -8,6 +8,9 @@ description: Server section allows you to customize server settings like VAC and
 ---
 
 # Server
+> 📌 **IMPORTANT NOTICE**  
+> As of Unturned version **3.25.8.0** the `Config.json` file has been replaced by the new `Config.txt` file. This guide is kept for historical purposes, but we recommend using the **[Config.txt](/servers/docs/unturned-server/config-txt)** file for configuring your Unturned server.
+
 Server section allows you to customize server settings like VAC and BattlEye security, ping limits, timeouts, rate limits, fake lag, scheduled shutdowns, and more. This section is used to configure the server's behavior and security settings.
 
 Based on [Official Unturned Wiki](https://unturned.wiki.gg/wiki/Gameplay_config#Server) and our experience.

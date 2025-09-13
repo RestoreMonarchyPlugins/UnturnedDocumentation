@@ -8,6 +8,9 @@ description: Events settings can adjust the frequency and duration of weather ev
 ---
 
 # Events
+> 📌 **IMPORTANT NOTICE**  
+> As of Unturned version **3.25.8.0** the `Config.json` file has been replaced by the new `Config.txt` file. This guide is kept for historical purposes, but we recommend using the **[Config.txt](/servers/docs/unturned-server/config-txt)** file for configuring your Unturned server.
+
 Events settings can adjust the frequency and duration of weather events, airdrops, and arena settings.
 
 Based on [Official Unturned Wiki](https://unturned.wiki.gg/wiki/Gameplay_config#Events) and our experience.

@@ -10,6 +10,9 @@ description: Items settings can adjust the loot on the server, change the qualit
 ![items](assets/items.png)
 
 # Items
+> 📌 **IMPORTANT NOTICE**  
+> As of Unturned version **3.25.8.0** the `Config.json` file has been replaced by the new `Config.txt` file. This guide is kept for historical purposes, but we recommend using the **[Config.txt](/servers/docs/unturned-server/config-txt)** file for configuring your Unturned server.
+
 Items settings allow you to increase loot on the server, change the quality of items, and toggle durability for all or different item types.
 
 Based on [Official Unturned Wiki](https://unturned.wiki.gg/wiki/Gameplay_config#Items) and our experience.

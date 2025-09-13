@@ -10,6 +10,9 @@ description: Barricades settings can adjust the decay time and armor of barricad
 ![barricades](assets/barricades.png)
 
 # Barricades
+> 📌 **IMPORTANT NOTICE**  
+> As of Unturned version **3.25.8.0** the `Config.json` file has been replaced by the new `Config.txt` file. This guide is kept for historical purposes, but we recommend using the **[Config.txt](/servers/docs/unturned-server/config-txt)** file for configuring your Unturned server.
+
 Barricades settings can adjust the decay time and armor of barricades, as well as restrict placement on vehicles.
 
 Based on [Official Unturned Wiki](https://unturned.wiki.gg/wiki/Gameplay_config#Barricades) and our experience.
