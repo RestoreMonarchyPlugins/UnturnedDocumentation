@@ -30,19 +30,9 @@ To make your server public, you need to create a Game Server Login Token (GSLT) 
 
     ![gslt created](assets/gslt_created.png)
 
-5. Go to your server files and open the **Config.json** file. Find and set the `Login_Token` field to the GSLT you copied.
+5. Go to your server files and open the **Config.txt** file. Find and set the `Login_Token` field to the GSLT you copied.
 ```json
-"Browser": {
-    "Icon": "",
-    "Thumbnail": "",
-    "Desc_Hint": "",
-    "Desc_Full": "",
-    "Desc_Server_List": "",
-    "Login_Token": "F6093832284C79C27E889359DC1BFCC1",
-    "BookmarkHost": "",
-    "Monetization": "Unspecified",
-    "Links": null
-},
+Login_Token F6093832284C79C27E889359DC1BFCC1
 ```
 
 ### Video
@@ -65,20 +55,11 @@ Watch this video to learn how to create a GSLT for your Unturned server.
 ## Fake IP
 **If you are hosting the server on your computer**, instead of port forwarding, you can just use a Fake IP feature to make your server public and show up in the server list. This is actually an easier and better option for security reasons as it hides your real IP address.
 
-1. Go to your server files and open the **Config.json** file.
-2. At the bottom of the `Server` section, you will find `Use_FakeIP` option. Set it to `true`.
+1. Go to your server files and open the **Config.txt** file.
+2. At the bottom of the `Server` section, you will find `Use_FakeIP` option. Set it to `True`.
 
 ```json
-    "Update_Shutdown_Warnings": [
-    "00:03:00",
-    "00:01:00",
-    "00:00:30",
-    "00:00:15",
-    "00:00:03",
-    "00:00:02",
-    "00:00:01"
-    ],
-    "Validate_EconInfo_Hash": true,
-    "Use_FakeIP": true
-},
+// > Documentation: https://docs.smartlydressedgames.com/en/stable/servers/fake-ip.html
+// > Default: False
+Use_FakeIP True
 ```

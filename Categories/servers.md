@@ -12,7 +12,7 @@ This documentation covers:
 - Basic server setup and configuration
 - List of available server/Rocket commands and how to use them
 - Rocket installation, configuration, permissions, plugins and more
-- Full, detailed and complete documentation of Config.json file
+- Full, detailed and complete documentation of Config.json file (now replaced by Config.txt)
 
 ## Official Resources
 This is a list of official resources where you can find useful information about Unturned server hosting.
