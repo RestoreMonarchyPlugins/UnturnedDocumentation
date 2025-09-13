@@ -18,7 +18,7 @@ Based on [Official Unturned Wiki](https://unturned.wiki.gg/wiki/Gameplay_config#
 "Zombies": {
   "Spawn_Chance": 0.2,
   "Loot_Chance": 0.55,
-  "Crawler_Chance": 0.0,
+  "Crawler_Chance": 0.0, 
   "Sprinter_Chance": 0.0,
   "Flanker_Chance": 0.0,
   "Burner_Chance": 0.0,

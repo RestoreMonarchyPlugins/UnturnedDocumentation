@@ -1,5 +1,5 @@
 ---
-position: 5
+position: 4
 title: Commands.dat
 authors: MCrow
 category: servers
