@@ -39,4 +39,4 @@ To update Rocket, simply repeat the installation process. The new releases of Ro
 ## Video Tutorial
 Learn how to install Rocket on your Unturned server on Windows in our video tutorial.
 
-[video=e5ef75cc-caac-42ae-8f5a-c0e254c4fe99]
+[video=eW_3NsqAHKs]

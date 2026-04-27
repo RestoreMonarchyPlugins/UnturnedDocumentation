@@ -103,4 +103,4 @@ The maximum distance from the vehicle's hull that traps can be placed. The defau
 ## Video Tutorial
 Learn how to wipe structures, barricades and players data on your server with this video tutorial.
 
-[video=46e9cb7d-f2af-4a82-99af-3fead59527bc]
+[video=wA0uZ7AKTHs]

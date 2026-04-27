@@ -52,4 +52,4 @@ To invite your friends, send them your Server Code that you can find in the cons
 ### Video Tutorial
 Check out our video tutorial on how to make your first Unturned server on Windows and play with your friends.
 
-[video=a164cae7-f592-4e12-9aa2-6aa570b97c25]
+[video=4m8FeIVf2N0]

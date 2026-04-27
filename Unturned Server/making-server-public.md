@@ -38,7 +38,7 @@ Login_Token F6093832284C79C27E889359DC1BFCC1
 ### Video
 Watch this video to learn how to create a GSLT for your Unturned server.
 **[How to Make Unturned Server Public](https://www.youtube.com/watch?v=ck--2zWlrlw)**
-[video=7d19e2f9-4b35-4193-85f4-cd94c7915c03]
+[video=ck--2zWlrlw]
 
 ## Startup Command
 **If you are hosting the server on your computer**, you will need to run it using the `ExampleServer.bat` file instead of directly running the server executeable or through Steam.

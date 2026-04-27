@@ -113,4 +113,4 @@ If the map doesn't load properly, verify:
 ## Video Tutorial
 You can watch our video tutorial on how to install workshop maps on your Unturned server.
 
-[video=d085ab63-70ff-44ba-8ead-989c0dc0fcbb]
+[video=hbfh2Ge7CAw]

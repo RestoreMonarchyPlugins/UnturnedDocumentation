@@ -59,4 +59,4 @@ If you have any issues with the plugin, you can check the console for error mess
 ## Video Tutorial
 Watch our video tutorial on how to install plugins on your Unturned server.
 
-[video=5b35801f-4ea8-4eaf-88ed-ff2beac99c21]
+[video=eW_3NsqAHKs]

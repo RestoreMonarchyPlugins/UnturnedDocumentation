@@ -54,4 +54,7 @@ Before you can use it, you need to link your account with Discord, because FPlug
 
 ## Video Tutorial
 We have a video tutorial that shows you how to set up and use our premium plugins on your Unturned server. You can watch it below:
-[video=dbc054a5-210e-4e76-a425-dd7bc2d87900]
+
+<div style="position:relative;padding-top:56.25%;">
+    <iframe src="https://iframe.mediadelivery.net/embed/209627/dbc054a5-210e-4e76-a425-dd7bc2d87900?autoplay=false&loop=false&muted=false&preload=true&responsive=true" loading="lazy" style="border:0;position:absolute;top:0;left:0;height:100%;width:100%;" allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture;" allowfullscreen></iframe>
+</div>

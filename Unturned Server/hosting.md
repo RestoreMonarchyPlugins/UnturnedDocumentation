@@ -51,7 +51,7 @@ Free and easy way to play with your friends and learn how to set up a server. Ho
 ### Tutorial
 We have a tutorial on how to set up an Unturned server on your computer.
 #### [How to Make Unturned Server to Play with Friends](https://www.youtube.com/watch?v=4m8FeIVf2N0)
-[video=a164cae7-f592-4e12-9aa2-6aa570b97c25]
+[video=4m8FeIVf2N0]
 
 ## Game Server Hosting
 Best and most popular option for hosting a public Unturned server is to rent a server from a hosting company.
@@ -172,7 +172,7 @@ If you want to have full control over your server and have a powerful machine, y
 If you decide to rent a dedicated server, we have a tutorial on how to set up Pterodactyl Panel which is a free and open-source game server management panel for Linux.
 
 #### [How to Install & Setup Pterodactyl (Panel, Wings & Databases) on Ubuntu 24.04](https://www.youtube.com/watch?v=4m8FeIVf2N0)  
-[video=d448dd05-85e8-4b18-ad32-4e36d172ba5b]
+[video=IxcVjZG1FPg]
 
 ## Summary
 - **[Your Computer](#your-computer)** - Free and easy way to play with your friends and learn how to set up a server. Not recommended for hosting a public server.

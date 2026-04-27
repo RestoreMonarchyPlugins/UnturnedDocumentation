@@ -92,4 +92,4 @@ Whether or not a weapon's player damage values should be used instead of the wea
 ## Video Tutorial
 Learn how to configure animals settings with our video tutorial.
 
-[video=67a1080c-4623-499d-ba3b-3ce017eb9d5b]
+[video=qJqzE8n4kus]

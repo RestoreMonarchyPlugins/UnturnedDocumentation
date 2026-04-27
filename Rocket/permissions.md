@@ -163,4 +163,4 @@ The `<Permission>` tags also have **Cooldown** attribute if you want to limit th
 ## Video Tutorial
 Learn how to add ranks and permissions to your Unturned server with Rocket.
 
-[video=30a4e3e7-7fb2-47e2-a225-2927f1e584c8]
+[video=5Cuqg8V5a7U]

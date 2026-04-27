@@ -157,4 +157,4 @@ This is all you need to know about the `Browser` section in the `Config.json` fi
 ## Video Tutorial
 Check out our video tutorial on how to configure this section.
 
-[video=7946e77b-f309-4261-9ae7-43f7bc38f43c]
+[video=Phpk9v_ijzE]

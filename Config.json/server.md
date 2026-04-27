@@ -182,4 +182,4 @@ To learn more about Fake IP, check out the [official documentation](https://docs
 ## Video Tutorial
 If you prefer video format, here is a video tutorial on how to configure the server settings in the `Config.json` file:
 
-[video=0e2dec24-4bb9-4886-af77-1e01faf5e4a6]
+[video=DUw4DvSBaXw]

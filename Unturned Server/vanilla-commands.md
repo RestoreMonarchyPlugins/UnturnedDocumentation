@@ -166,7 +166,7 @@ The `teleport` command is a complex command that can be used in different ways t
 ### Video Tutorial
 Check out our video where we show you how to use 10 of these commands in-game.
 
-[video=8b1061f4-72c4-4417-91a8-6f884bfefbb6]
+[video=flpB7IKKS3c]
 
 ## Cheats Commands
 In order to be able to use cheats commands, you need to have enabled cheats in the server **[Commands.dat](commands-dat)** file. You can do this by simply adding the `cheats` to the file.
@@ -217,4 +217,4 @@ The `animal` command is used to spawn in animals at your current position.
 ### Video Tutorial
 Here is a video tutorial on how to use cheats commands in Unturned.
 
-[video=bc9386bf-bd04-419e-a032-a4f456bc1a87]
+[video=-zHQ6mE8BxY]

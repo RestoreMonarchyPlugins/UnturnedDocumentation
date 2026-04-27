@@ -128,8 +128,8 @@ Melee and gun replacement for `Has_Durability`. Defaults to **true**. If **false
 ## Video Tutorials
 Video tutorial explaining all of the above settings.
 
-[video=cef002fb-7f43-43bc-97d8-26b1aa72925b]
+[video=xyg_Xb8vics]
 
 Check out our video tutorial on how to increase spawn chance of items and loot on your server.
 
-[video=affd02b0-e416-4fbe-8363-86e4b2639813]
+[video=zvCBDkJjA8g]
